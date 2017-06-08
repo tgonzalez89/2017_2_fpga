@@ -1,0 +1,14 @@
+module latch_SR (clk,r,s,q,qb);
+	input clk,r,s;
+	output q,qb;
+	reg Rg,Sg;
+	
+	always @(clk or r or s) begin
+		Rg = (r & clk);
+		Sg = (s & clk); 		
+	end
+	
+	assign q  = Rg ^~ qb;
+	assign qb = Sg ^~ q;
+	
+endmodule
