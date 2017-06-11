@@ -10,31 +10,31 @@
 # Copying C:/altera/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/DSP-07/Google\ Drive/2017\ II\ Prototipado\ FPGAs/Proyecto\ 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados {C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados {C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:03:03 on Jun 07,2017
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados" C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v 
+# Start time: 14:36:38 on Jun 10,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados" C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v 
 # -- Compiling module parte2_maquina_estados
 # 
 # Top level modules:
 # 	parte2_maquina_estados
-# End time: 20:03:03 on Jun 07,2017, Elapsed time: 0:00:00
+# End time: 14:36:38 on Jun 10,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/DSP-07/Google\ Drive/2017\ II\ Prototipado\ FPGAs/Proyecto\ 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados {C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados {C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v}
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:03:04 on Jun 07,2017
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados" C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v 
+# Start time: 14:36:38 on Jun 10,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados" C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v 
 # -- Compiling module tb_maquina_estados
 # 
 # Top level modules:
 # 	tb_maquina_estados
-# End time: 20:03:04 on Jun 07,2017, Elapsed time: 0:00:00
+# End time: 14:36:38 on Jun 10,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_maquina_estados
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_maquina_estados 
-# Start time: 20:03:04 on Jun 07,2017
+# Start time: 14:36:39 on Jun 10,2017
 # Loading work.tb_maquina_estados
 # Loading work.parte2_maquina_estados
 # 
@@ -45,9 +45,9 @@
 # .main_pane.objects.interior.cs.body.tree
 # run -all
 # Reach undefined state
-# ** Note: $finish    : C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v(93)
+# ** Note: $finish    : C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v(93)
 #    Time: 1001 us  Iteration: 0  Instance: /tb_maquina_estados
 # 1
-# Break in Module tb_maquina_estados at C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v line 93
-# End time: 20:04:11 on Jun 07,2017, Elapsed time: 0:01:07
+# Break in Module tb_maquina_estados at C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v line 93
+# End time: 18:42:53 on Jun 10,2017, Elapsed time: 4:06:14
 # Errors: 0, Warnings: 0

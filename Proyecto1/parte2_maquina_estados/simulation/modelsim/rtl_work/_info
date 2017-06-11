@@ -7,46 +7,46 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/simulation/modelsim
+Z0 dC:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/simulation/modelsim
 vparte2_maquina_estados
-!s110 1496887383
+Z1 !s110 1497126998
 !i10b 1
 !s100 jJaN2OS?YAC6UlcRD<I?A3
-IShAYAMVN;6X^izP`IlN0D1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
+I<MWHR7>Tj8Q8g@FTmjg<X3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1496886381
-8C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v
-FC:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v
+8C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v
+FC:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v
 L0 23
-Z2 OV;L;10.4d;61
+Z3 OV;L;10.4d;61
 r1
 !s85 0
 31
-!s108 1496887383.000000
-!s107 C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados|C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v|
+Z4 !s108 1497126998.000000
+!s107 C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados|C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/parte2_maquina_estados.v|
 !i113 1
-Z3 o-vlog01compat -work work
-Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados}
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados
 vtb_maquina_estados
-!s110 1496887384
+R1
 !i10b 1
 !s100 ^]Tc[HCjePRUc=L]@iTAY3
-I_`ca46;Wl8FTg41^jLJ5n1
-R1
+IbeAQPmF;k;@1@hMKP:k9:0
+R2
 R0
 w1496887359
-8C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v
-FC:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v
+8C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v
+FC:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v
 L0 3
-R2
+R3
 r1
 !s85 0
 31
-!s108 1496887384.000000
-!s107 C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados|C:/Users/DSP-07/Google Drive/2017 II Prototipado FPGAs/Proyecto 1/2017_2_fpga-master/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v|
-!i113 1
-R3
 R4
+!s107 C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados|C:/Users/DSP-07/Documents/Github/2017_2_fpga/Proyecto1/parte2_maquina_estados/tb_maquina_estados.v|
+!i113 1
+R5
+R6
