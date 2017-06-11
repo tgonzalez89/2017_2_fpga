@@ -1,6 +1,6 @@
-module latch_SR (clk,r,s,q,qb);
+module latch_SR (clk,r,s,qa,qb);
 	input clk,r,s;
-	output q,qb;
+	output qa,qb;
 	reg Rg,Sg;
 	
 	always @(clk or r or s) begin
@@ -8,7 +8,7 @@ module latch_SR (clk,r,s,q,qb);
 		Sg = (s & clk); 		
 	end
 	
-	assign q  = Rg ^~ qb;
-	assign qb = Sg ^~ q;
+	assign qa  = ~(Rg | qb);
+	assign qb = ~(Sg | qa);
 	
 endmodule

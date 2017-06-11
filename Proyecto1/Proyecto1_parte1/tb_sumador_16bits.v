@@ -15,26 +15,26 @@ initial begin
 		b=0;
 		control=0;
 		
-		#10000 a=16'h2222;
+		#3000  a=16'h2222;
 		       b=16'h4444;
 		       control=1;
 				 
-		#10000 a=16'hFFFF;
+		#3000 a=16'hFFFF;
 		      b=16'hFFFF;
 		       control=1;
 				 
-		#10000 a=16'hFFFF;
+		#3000 a=16'hFFFF;
 		       b=16'hFFFF;
 		       control=0;
-				 
-		#10000 a=16'h4444;
-		       b=16'h2222;
-		       control=0;
-				 
-		#10000 a=16'h2222;
+				 				 
+		#3000 a=16'h2222;
 		       b=16'h4444;
 		       control=0;
-#10000;
+
+		#3000 a=16'h4444;
+		      b=16'h2222;
+		      control=0;
+		#10000;
 		       
 		      $finish;
 		      

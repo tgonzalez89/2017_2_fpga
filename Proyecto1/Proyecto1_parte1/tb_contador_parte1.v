@@ -18,10 +18,10 @@ module tb_contador_parte1 ();
 	end
 	
 	initial begin
-		#10000 rst=0;
-		#10000 enable = 1;
-		#200000 up_down = 1;
-		#200000;
+		#2000 rst=0; up_down = 1; enable = 1;
+		#10000 enable=0; 
+		#2000 enable=1; up_down = 0;		
+		#10000;
 		$finish;
 	end
 	
