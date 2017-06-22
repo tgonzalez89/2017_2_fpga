@@ -54,17 +54,20 @@ module parte2_maquina_estados (
             reg_fstate <= idle;
             enters <= 1'b0;
             exits <= 1'b0;
-				count <= 32'b0;
+            count <= 32'b0;
         end
         else begin
             enters <= 1'b0;
             exits <= 1'b0;
             case (fstate)
                 idle: begin
+                    // Sensor 1 se activa => sensor1_activated (avanza)
                     if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
                         reg_fstate <= sensor1_activated;
+                    // Sensor 2 se activa => sensor2_activated (avanza)
                     else if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
                         reg_fstate <= sensor2_activated;
+                    // Ambos sensores se activan al mismo tiempo => error
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b1)))
                         reg_fstate <= error;
                     // Inserting 'else' block to prevent latch inference
@@ -72,10 +75,13 @@ module parte2_maquina_estados (
                         reg_fstate <= idle;
                 end
                 sensor1_activated: begin
+                    // Sensor 1 se desactiva => idle (se devuelve)
                     if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
                         reg_fstate <= idle;
+                    // Sensor 2 se activa => both_sensors_active1 (avanza)
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b1)))
                         reg_fstate <= both_sensors_active1;
+                    // Sensor 1 se desactiva y sensor 2 se activa => error
                     else if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
                         reg_fstate <= error;
                     // Inserting 'else' block to prevent latch inference
@@ -85,10 +91,13 @@ module parte2_maquina_estados (
                     exits <= 1'b0;
                 end
                 sensor2_activated: begin
+                    // Sensor 2 se desactiva => idle (se devuelve)
                     if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
                         reg_fstate <= idle;
+                    // Sensor 1 se activa => both_sensors_active1 (avanza)
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b1)))
                         reg_fstate <= both_sensors_active2;
+                    // Sensor 2 se desactiva y sensor 1 se activa => error
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
                         reg_fstate <= error;
                     // Inserting 'else' block to prevent latch inference
@@ -98,31 +107,41 @@ module parte2_maquina_estados (
                     exits <= 1'b0;
                 end
                 both_sensors_active1: begin
+                    // Sensor 1 se desactiva => sensor1_deactivated (avanza)
                     if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
                         reg_fstate <= sensor1_deactivated;
+                    // Ambos sensores se desactivan al mismo tiempo => error
                     else if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
                         reg_fstate <= error;
+                    // Sensor 2 se desactiva => sensor1_activated (se devuelve)
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
                         reg_fstate <= sensor1_activated;
                     // Inserting 'else' block to prevent latch inference
                     else
                         reg_fstate <= both_sensors_active1;
                 end
-                car_entered: begin
-                    reg_fstate <= idle;
-                    enters <= 1'b1;
-						  count <= count + 1;
-                end
-                car_exited: begin
-                    reg_fstate <= idle;
-                    exits <= 1'b1;
-						  count <= count - 1;
+                both_sensors_active2: begin
+                    // Sensor 2 se desactiva => sensor2_deactivated (avanza)
+                    if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
+                        reg_fstate <= sensor2_deactivated;
+                    // Ambos sensores se desactivan al mismo tiempo => error
+                    else if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
+                        reg_fstate <= error;
+                    // Sensor 1 se desactiva => sensor2_activated (se devuelve)
+                    else if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
+                        reg_fstate <= sensor2_activated;
+                    // Inserting 'else' block to prevent latch inference
+                    else
+                        reg_fstate <= both_sensors_active2;
                 end
                 sensor1_deactivated: begin
+                    // Sensor 2 se desactiva => car_entered (avanza)
                     if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
                         reg_fstate <= car_entered;
+                    // Sensor 1 se activa => both_sensors_active1 (se devuelve)
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b1)))
                         reg_fstate <= both_sensors_active1;
+                    // Sensor 1 se activa y sensor 2 se desactiva => error
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
                         reg_fstate <= error;
                     // Inserting 'else' block to prevent latch inference
@@ -130,26 +149,28 @@ module parte2_maquina_estados (
                         reg_fstate <= sensor1_deactivated;
                 end
                 sensor2_deactivated: begin
+                    // Sensor 1 se desactiva => car_exited (avanza)
                     if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
                         reg_fstate <= car_exited;
+                    // Sensor 2 se activa => both_sensors_active2 (se devuelve)
                     else if (((sensor1 == 1'b1) & (sensor2 == 1'b1)))
                         reg_fstate <= both_sensors_active2;
+                    // Sensor 2 se activa y sensor 1 se desactiva => error
                     else if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
                         reg_fstate <= error;
                     // Inserting 'else' block to prevent latch inference
                     else
                         reg_fstate <= sensor2_deactivated;
                 end
-                both_sensors_active2: begin
-                    if (((sensor1 == 1'b1) & (sensor2 == 1'b0)))
-                        reg_fstate <= sensor2_deactivated;
-                    else if (((sensor1 == 1'b0) & (sensor2 == 1'b0)))
-                        reg_fstate <= error;
-                    else if (((sensor1 == 1'b0) & (sensor2 == 1'b1)))
-                        reg_fstate <= sensor2_activated;
-                    // Inserting 'else' block to prevent latch inference
-                    else
-                        reg_fstate <= both_sensors_active2;
+                car_entered: begin
+                    reg_fstate <= idle;
+                    enters <= 1'b1;
+                    count <= count + 1;
+                end
+                car_exited: begin
+                    reg_fstate <= idle;
+                    exits <= 1'b1;
+                    count <= count - 1;
                 end
                 error: begin
                     reg_fstate <= idle;
@@ -157,7 +178,7 @@ module parte2_maquina_estados (
                 default: begin
                     enters <= 1'bx;
                     exits <= 1'bx;
-						  count <= 32'bx;
+                    count <= 32'bx;
                     $display ("Reach undefined state");
                 end
             endcase
