@@ -20,7 +20,7 @@
 
 `timescale 1ns/1ns
 
-module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_read_rq,CS);
+module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_read_rq,CS);
 
     input clock;
     input reset;
@@ -29,12 +29,12 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
 	 
     output data_sel;
     output tx_load;
-    output fifo_rx_read_rq;
+    output fifo_tx_read_rq;
     output CS;
 	 
     reg data_sel;
     reg tx_load;
-    reg fifo_rx_read_rq;
+    reg fifo_tx_read_rq;
     reg CS;
     reg [3:0] fstate;
     reg [3:0] reg_fstate;
@@ -50,19 +50,19 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
         end
     end
 
-    always @(fstate or reset or tx_almost_full)
+    always @(fstate or reset or tx_almost_full or CSI_CLK or csa_old or csa_changes)
     begin
         if (reset) begin
             reg_fstate <= IDLE;
             data_sel <= 1'b0;
             tx_load <= 1'b0;
-            fifo_rx_read_rq <= 1'b0;
+            fifo_tx_read_rq <= 1'b0;
             CS <= 1'b0;
         end
         else begin
             data_sel <= 1'b0;
             tx_load <= 1'b0;
-            fifo_rx_read_rq <= 1'b0;
+            fifo_tx_read_rq <= 1'b0;
             CS <= 1'b0;
             case (fstate)
                 IDLE: begin
@@ -76,7 +76,7 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
 
                     CS <= 1'b1;
 
-                    fifo_rx_read_rq <= 1'b0;
+                    fifo_tx_read_rq <= 1'b0;
 
                     tx_load <= 1'b1;
 
@@ -87,20 +87,15 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
                 A: begin
                     reg_fstate <= A;
 						  if(csa_old == 0 & CSI_CLK == 1) begin
-								csa_changes = csa_changes + 1;
-							end else if (csa_changes == 4'h8) begin
+								csa_changes <= csa_changes + 1;
+							end else if (csa_changes == 4'ha) begin
 								 reg_fstate <= B;
 							end
 
                     CS <= 1'b0;
-
-                    fifo_rx_read_rq <= 1'b0;
-
+                    fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b0;
-
-                    data_sel <= 1'b0;
-						  							
-								
+                    data_sel <= 1'b0;								
 						  csa_old <= CSI_CLK;
 						  
 						  
@@ -110,40 +105,46 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
 						  csa_changes <= 0;
                     CS <= 1'b0;
 
-                    fifo_rx_read_rq <= 1'b1;
+                    fifo_tx_read_rq <= 1'b1;
 
                     tx_load <= 1'b0;
 
                     data_sel <= 1'b0;
+		    csa_old <= CSI_CLK;
                 end
                 C: begin
                     reg_fstate <= C;
-						  	if(csa_old == 1 & CSI_CLK == 0) begin
+					  	        if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes <= csa_changes + 1;
+							end else if (csa_changes == 4'h1) begin
 								 reg_fstate <= D;
 							end
+						  
                     CS <= 1'b0;
-                    fifo_rx_read_rq <= 1'b0;
+                    fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b1;
                     data_sel <= 1'b1;
+		    csa_old <= CSI_CLK;
                 end
 
                 D: begin
                     reg_fstate <= D;
 						  if(csa_old == 0 & CSI_CLK == 1) begin
-								csa_changes = csa_changes + 1;
+								csa_changes <= csa_changes + 1;
 							end else if (csa_changes == 4'h8) begin
 								 reg_fstate <= IDLE;
 							end
                     CS <= 1'b0;
-                    fifo_rx_read_rq <= 1'b0;
+                    fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b0;
                     data_sel <= 1'b1;
+						  csa_old <= CSI_CLK;
                 end
 					 
                 default: begin
                     data_sel <= 1'bx;
                     tx_load <= 1'bx;
-                    fifo_rx_read_rq <= 1'bx;
+                    fifo_tx_read_rq <= 1'bx;
                     CS <= 1'bx;
                     $display ("Reach undefined state");
                 end

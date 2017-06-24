@@ -17,6 +17,7 @@ module tb_proyecto2 ();
 	wire SPI_MOSI;
 	
 	proyecto2 U0 (.Mclk(Mclk),.nReset(nReset),.Data_Available(Data_Available),.BUS_IN(BUS_IN),.Read_RQ(Read_RQ),.BUS_OUT(BUS_OUT),.SPI_clk(SPI_clk),.SPI_CS(SPI_CS),.SPI_MOSI(SPI_MOSI),.SPI_MISO(SPI_MISO),.Address(Address),.rst_clk(rst_clk));
+	
 	initial begin
 		Mclk=0;
 		nReset = 1;
@@ -24,7 +25,7 @@ module tb_proyecto2 ();
 		BUS_IN = 8'h00;
 		Read_RQ = 0;
 		SPI_MISO = 0;
-		Address = 8'h0;	
+		Address = 8'h5A;	
 		rst_clk=1;
 	end
 	
@@ -34,7 +35,7 @@ module tb_proyecto2 ();
 	
 	initial begin		
 		#100 rst_clk=0;
-		#10000000 nReset = 0; Data_Available = 1; BUS_IN = 8'h3f;
+		#10000 nReset = 0; Data_Available = 1; BUS_IN = 8'h3f;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;
 
@@ -95,19 +96,71 @@ module tb_proyecto2 ();
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
 		
+		#10000000;
 		
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
-		#10000000;
+		#100 rst_clk=0;
+		#10000 nReset = 0; Data_Available = 1; BUS_IN = 8'h2f;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;
 
+		#100 Data_Available = 1; BUS_IN = 8'h90;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;
+
+		#100 Data_Available = 1; BUS_IN = 8'h09;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;
+
+		#100 Data_Available = 1; BUS_IN = 8'h21;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		
+		
+		#100 Data_Available = 1; BUS_IN = 8'hf4;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'ha2;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'h54;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'he4;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'hff;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'h00;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'h12;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'hdc;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'hbb;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'haa;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+
+		#100 Data_Available = 1; BUS_IN = 8'h45;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		
+		#10000000;		
 		$finish;
 	end
 	

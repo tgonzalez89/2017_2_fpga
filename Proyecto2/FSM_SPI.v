@@ -20,28 +20,31 @@
 
 `timescale 1ns/1ns
 
-module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_read_rq,CS);
+module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_read_rq,fifo_tx_empty,CS);
 
     input clock;
     input reset;
     input tx_almost_full;
     input CSI_CLK;
+	 input fifo_tx_empty;
 	 
     output data_sel;
     output tx_load;
-    output fifo_rx_read_rq;
+    output fifo_tx_read_rq;
     output CS;
 	 
+	 reg [3:0] byte_sends;
     reg data_sel;
     reg tx_load;
-    reg fifo_rx_read_rq;
+    reg fifo_tx_read_rq;
     reg CS;
     reg [3:0] fstate;
     reg [3:0] reg_fstate;
-	 reg [3:0] csa_changes;
+	 reg [3:0] csa_changes_0;
+	 reg [3:0] csa_changes_1;
 	 reg csa_old;
 	 
-	 parameter IDLE=0,A=1,B=2,C=3,D=4;
+	 parameter IDLE=0,A=1,B=2,C=3,D=4, E=5;
 
     always @(posedge clock)
     begin
@@ -50,19 +53,20 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
         end
     end
 
-    always @(fstate or reset or tx_almost_full or CSI_CLK or csa_old or csa_changes)
+    always @(fstate or reset or tx_almost_full or CSI_CLK or csa_old or csa_changes_1 or csa_changes_0 or fifo_tx_empty)
     begin
         if (reset) begin
             reg_fstate <= IDLE;
             data_sel <= 1'b0;
             tx_load <= 1'b0;
-            fifo_rx_read_rq <= 1'b0;
-            CS <= 1'b0;
+            fifo_tx_read_rq <= 1'b0;
+            CS <= 1'b1;
+				byte_sends <= 0;
         end
         else begin
             data_sel <= 1'b0;
             tx_load <= 1'b0;
-            fifo_rx_read_rq <= 1'b0;
+            fifo_tx_read_rq <= 1'b0;
             CS <= 1'b0;
             case (fstate)
                 IDLE: begin
@@ -75,75 +79,104 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_rx_re
                         reg_fstate <= IDLE;
 
                     CS <= 1'b1;
-
-                    fifo_rx_read_rq <= 1'b0;
-
+                    fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b1;
 
                     data_sel <= 1'b0;
-						  csa_changes <= 0;
+						  csa_changes_0 <= 0;
+						  csa_changes_1 <= 0;
 						  csa_old <= 0;
                 end
                 A: begin
                     reg_fstate <= A;
 						  if(csa_old == 0 & CSI_CLK == 1) begin
-								csa_changes = csa_changes + 1;
-							end else if (csa_changes == 4'h8) begin
+								csa_changes_0 <= csa_changes_0 + 1;
+								fifo_tx_read_rq <= 1'b0;
+							end else if (csa_changes_0 == 4'h8) begin
 								 reg_fstate <= B;
+								 fifo_tx_read_rq <= 1'b1;
 							end
 
                     CS <= 1'b0;
-
-                    fifo_rx_read_rq <= 1'b0;
-
+                    csa_changes_1 <= 0;
                     tx_load <= 1'b0;
-
-                    data_sel <= 1'b0;
-						  							
-								
+                    data_sel <= 1'b0;								
 						  csa_old <= CSI_CLK;
 						  
 						  
                 end
                 B: begin
-                    reg_fstate <= C;
-						  csa_changes <= 0;
-                    CS <= 1'b0;
-
-                    fifo_rx_read_rq <= 1'b1;
-
-                    tx_load <= 1'b0;
-
-                    data_sel <= 1'b0;
-                end
-                C: begin
-                    reg_fstate <= C;
-						  	if(csa_old == 1 & CSI_CLK == 0) begin
-								 reg_fstate <= D;
+                    reg_fstate <= B;
+					  	   if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_1 <= csa_changes_1 + 1;
+							end else if (csa_changes_1 == 4'h1) begin							    
+								 reg_fstate <= C;
 							end
+							
+						  csa_changes_0 <= 0;
                     CS <= 1'b0;
-                    fifo_rx_read_rq <= 1'b0;
+                    fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b1;
                     data_sel <= 1'b1;
+						  csa_old <= CSI_CLK;
+                end
+
+                C: begin
+                    reg_fstate <= C;
+						  if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_0 <= csa_changes_0 + 1;
+							end else if (csa_changes_0 == 4'h6) begin
+									 reg_fstate <= D;				
+							end
+                    CS <= 1'b0;
+                    csa_changes_1 <= 0;
+                    tx_load <= 1'b0;
+                    data_sel <= 1'b1;
+						  fifo_tx_read_rq <= 1'b0;		
+						  csa_old <= CSI_CLK;
                 end
 
                 D: begin
                     reg_fstate <= D;
 						  if(csa_old == 0 & CSI_CLK == 1) begin
-								csa_changes = csa_changes + 1;
-							end else if (csa_changes == 4'h8) begin
-								 reg_fstate <= IDLE;
+								csa_changes_0 <= csa_changes_0 + 1;							
+							end else if (csa_changes_0 == 4'h7) begin
+							   fifo_tx_read_rq <= 1'b1;
+								reg_fstate <= E;
 							end
                     CS <= 1'b0;
-                    fifo_rx_read_rq <= 1'b0;
+                    csa_changes_1 <= 0;
                     tx_load <= 1'b0;
                     data_sel <= 1'b1;
+						  csa_old <= CSI_CLK;
                 end
+
+
+                E: begin
+                    reg_fstate <= E;
+						  if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_1 <= csa_changes_1 + 1;
+							end else if (csa_changes_1 == 4'h1) begin
+								if((fifo_tx_empty==1) || (byte_sends == 4'he)) begin
+								 reg_fstate <= IDLE;								 
+							end else begin
+								 reg_fstate <= C;				
+						   end
+							end
+                    CS <= 1'b0;
+                    csa_changes_0 <= 0;
+                    tx_load <= 1'b1;
+                    data_sel <= 1'b1;
+						  fifo_tx_read_rq <= 1'b0;
+						  csa_old <= CSI_CLK;
+                end
+
 					 
+
                 default: begin
                     data_sel <= 1'bx;
                     tx_load <= 1'bx;
-                    fifo_rx_read_rq <= 1'bx;
+                    fifo_tx_read_rq <= 1'bx;
                     CS <= 1'bx;
                     $display ("Reach undefined state");
                 end

@@ -4,6 +4,14 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "SPI_clk",
+					"strict" : false
+				},
+				{
+					"name" : "SPI_CS",
+					"strict" : false
+				},
+				{
 					"name" : "SPI_MOSI",
 					"strict" : false
 				},
@@ -12,7 +20,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Address[0]",
+					"name" : "rst_clk",
 					"strict" : false
 				},
 				{
@@ -20,7 +28,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "rst_clk",
+					"name" : "Address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Data_Available",
 					"strict" : false
 				},
 				{
@@ -37,10 +49,6 @@
 				},
 				{
 					"name" : "BUS_IN[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Data_Available",
 					"strict" : false
 				},
 				{

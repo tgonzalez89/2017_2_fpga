@@ -1,5 +1,5 @@
 Analysis & Elaboration report for proyecto2
-Wed Jun 21 20:11:01 2017
+Fri Jun 23 23:21:26 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 
 
@@ -15,10 +15,8 @@ Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
   7. Parameter Settings for User Entity Instance: FSM_SPI:U2
   8. scfifo Parameter Settings by Entity Instance
   9. Analysis & Elaboration Settings
- 10. Port Connectivity Checks: "FSM_SPI:U2"
- 11. Port Connectivity Checks: "fifo:U1"
- 12. Analysis & Elaboration Messages
- 13. Analysis & Elaboration Suppressed Messages
+ 10. Port Connectivity Checks: "fifo:U1"
+ 11. Analysis & Elaboration Messages
 
 
 
@@ -45,7 +43,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Wed Jun 21 20:11:01 2017       ;
+; Analysis & Elaboration Status ; Successful - Fri Jun 23 23:21:26 2017       ;
 ; Quartus Prime Version         ; 16.1.2 Build 203 01/18/2017 SJ Lite Edition ;
 ; Revision Name                 ; proyecto2                                   ;
 ; Top-level Entity Name         ; proyecto2                                   ;
@@ -134,6 +132,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; B              ; 2     ; Signed Integer                 ;
 ; C              ; 3     ; Signed Integer                 ;
 ; D              ; 4     ; Signed Integer                 ;
+; E              ; 5     ; Signed Integer                 ;
 +----------------+-------+--------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -240,22 +239,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "FSM_SPI:U2"                                                                                    ;
-+-----------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port            ; Type   ; Severity ; Details                                                                             ;
-+-----------------+--------+----------+-------------------------------------------------------------------------------------+
-; fifo_rx_read_rq ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; CS              ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+-----------------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "fifo:U1"                                                                             ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port  ; Type   ; Severity ; Details                                                                             ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
-; empty ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; full  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; usedw ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
@@ -267,7 +255,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
-    Info: Processing started: Wed Jun 21 20:10:40 2017
+    Info: Processing started: Fri Jun 23 23:21:06 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto2 -c proyecto2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -297,16 +285,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_mux_
     Info (12023): Found entity 1: tb_mux_sel File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_mux_sel.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fsm_spi.v
     Info (12023): Found entity 1: FSM_SPI File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at tb_FSM_SPI.v(14): created implicit net for "fifo_rx_read" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_FSM_SPI.v Line: 14
-Warning (10236): Verilog HDL Implicit Net warning at proyecto2.v(44): created implicit net for "Reg_Rx_Read_Req" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 44
 Warning (10236): Verilog HDL Implicit Net warning at tb_pre_tx_module.v(9): created implicit net for "fifo_wrreq" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_pre_tx_module.v Line: 9
 Info (12127): Elaborating entity "proyecto2" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at proyecto2.v(24): object "rdreq" assigned a value but never read File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 24
 Warning (10034): Output port "BUS_OUT" at proyecto2.v(10) has no driver File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 10
-Warning (10034): Output port "SPI_clk" at proyecto2.v(7) has no driver File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 7
-Warning (10034): Output port "SPI_CS" at proyecto2.v(8) has no driver File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 8
-Info (12128): Elaborating entity "pre_tx_module" for hierarchy "pre_tx_module:U0" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 41
-Info (12128): Elaborating entity "fifo" for hierarchy "fifo:U1" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 42
+Info (12128): Elaborating entity "pre_tx_module" for hierarchy "pre_tx_module:U0" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 43
+Info (12128): Elaborating entity "fifo" for hierarchy "fifo:U1" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 44
 Info (12128): Elaborating entity "scfifo" for hierarchy "fifo:U1|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
 Info (12130): Elaborated megafunction instantiation "fifo:U1|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
 Info (12133): Instantiated megafunction "fifo:U1|scfifo:scfifo_component" with the following parameter: File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
@@ -340,42 +323,38 @@ Info (12128): Elaborating entity "altsyncram_0ou1" for hierarchy "fifo:U1|scfifo
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_hgb.tdf
     Info (12023): Found entity 1: cntr_hgb File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/cntr_hgb.tdf Line: 26
 Info (12128): Elaborating entity "cntr_hgb" for hierarchy "fifo:U1|scfifo:scfifo_component|scfifo_k4i1:auto_generated|a_dpfifo_smc1:dpfifo|cntr_hgb:rd_ptr_count" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/a_dpfifo_smc1.tdf Line: 44
-Info (12128): Elaborating entity "FSM_SPI" for hierarchy "FSM_SPI:U2" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 44
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(89): variable "csa_old" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 89
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(89): variable "CSI_CLK" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 89
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(90): variable "csa_changes" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 90
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(90): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 90
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(91): variable "csa_changes" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 91
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(104): variable "CSI_CLK" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 104
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(121): variable "csa_old" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 121
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(121): variable "CSI_CLK" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 121
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(132): variable "csa_old" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 132
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(132): variable "CSI_CLK" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 132
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(133): variable "csa_changes" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 133
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(133): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 133
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(134): variable "csa_changes" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 134
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(53): inferring latch(es) for variable "csa_changes", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 53
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(53): inferring latch(es) for variable "csa_old", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 53
-Info (10041): Inferred latch for "csa_old" at FSM_SPI.v(53) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 53
-Info (10041): Inferred latch for "csa_changes[0]" at FSM_SPI.v(63) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 63
-Info (10041): Inferred latch for "csa_changes[1]" at FSM_SPI.v(63) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 63
-Info (10041): Inferred latch for "csa_changes[2]" at FSM_SPI.v(63) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 63
-Info (10041): Inferred latch for "csa_changes[3]" at FSM_SPI.v(63) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 63
-Info (12128): Elaborating entity "mux_sel" for hierarchy "mux_sel:U5" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 45
-Info (12128): Elaborating entity "clk_div_mod" for hierarchy "clk_div_mod:U4" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 46
-Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(17): truncated value with size 32 to match size of target (12) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 17
-Info (12128): Elaborating entity "shift_register" for hierarchy "shift_register:U3" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 47
-Info (144001): Generated suppressed messages file C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/output_files/proyecto2.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 24 warnings
+Info (12128): Elaborating entity "FSM_SPI" for hierarchy "FSM_SPI:U2" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 46
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(93): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 93
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(111): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 111
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(127): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 127
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(142): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 142
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(158): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 158
+Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(160): variable "byte_sends" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 160
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "byte_sends", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_changes_0", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_changes_1", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_old", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_old" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_1[0]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_1[1]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_1[2]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_1[3]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_0[0]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_0[1]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_0[2]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "csa_changes_0[3]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "byte_sends.1110" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (10041): Inferred latch for "byte_sends.0000" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
+Info (12128): Elaborating entity "mux_sel" for hierarchy "mux_sel:U5" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 47
+Info (12128): Elaborating entity "clk_div_mod" for hierarchy "clk_div_mod:U4" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 48
+Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(12): truncated value with size 12 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 12
+Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(15): truncated value with size 12 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 15
+Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(17): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 17
+Info (12128): Elaborating entity "shift_register" for hierarchy "shift_register:U3" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 49
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 16 warnings
     Info: Peak virtual memory: 673 megabytes
-    Info: Processing ended: Wed Jun 21 20:11:02 2017
-    Info: Elapsed time: 00:00:22
+    Info: Processing ended: Fri Jun 23 23:21:26 2017
+    Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:45
-
-
-+--------------------------------------------+
-; Analysis & Elaboration Suppressed Messages ;
-+--------------------------------------------+
-The suppressed messages can be found in C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/output_files/proyecto2.map.smsg.
 
 

@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at FSM_SPI.v(53): always construct contains both blocking and non-blocking assignments File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 53
+Warning (10268): Verilog HDL information at FSM_SPI.v(56): always construct contains both blocking and non-blocking assignments File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56

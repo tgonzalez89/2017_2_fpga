@@ -132,8 +132,8 @@ BUS_OUT[117] << <GND>
 BUS_OUT[118] << <GND>
 BUS_OUT[119] << <GND>
 BUS_OUT[120] << <GND>
-SPI_clk << <GND>
-SPI_CS << <GND>
+SPI_clk << SPI_clk.DB_MAX_OUTPUT_PORT_TYPE
+SPI_CS << FSM_SPI:U2.CS
 SPI_MOSI << shift_register:U3.data_out
 SPI_MISO => ~NO_FANOUT~
 Address[0] => Address[0].IN1
@@ -462,25 +462,28 @@ sclr => counter_reg_bit[0].SCLR
 
 |proyecto2|FSM_SPI:U2
 CSI_CLK => always1.IN1
-CSI_CLK => Selector4.IN2
-CSI_CLK => always1.IN1
+CSI_CLK => csa_old.DATAA
 clock => fstate~1.DATAIN
 reset => reg_fstate.IDLE.OUTPUTSELECT
 reset => reg_fstate.A.OUTPUTSELECT
 reset => reg_fstate.B.OUTPUTSELECT
 reset => reg_fstate.C.OUTPUTSELECT
 reset => reg_fstate.D.OUTPUTSELECT
+reset => reg_fstate.E.OUTPUTSELECT
 reset => data_sel.OUTPUTSELECT
 reset => tx_load.OUTPUTSELECT
-reset => fifo_rx_read_rq.OUTPUTSELECT
+reset => fifo_tx_read_rq.OUTPUTSELECT
 reset => CS.OUTPUTSELECT
-reset => csa_old.IN1
-reset => csa_changes[1].IN1
-tx_almost_full => Selector2.IN1
-tx_almost_full => Selector3.IN1
+reset => csa_changes_1[0].IN1
+reset => csa_old.LATCH_ENABLE
+reset => csa_changes_0[0].IN1
+tx_almost_full => Selector4.IN1
+tx_almost_full => Selector5.IN1
 data_sel <= data_sel.DB_MAX_OUTPUT_PORT_TYPE
 tx_load <= tx_load.DB_MAX_OUTPUT_PORT_TYPE
-fifo_rx_read_rq <= fifo_rx_read_rq.DB_MAX_OUTPUT_PORT_TYPE
+fifo_tx_read_rq <= fifo_tx_read_rq.DB_MAX_OUTPUT_PORT_TYPE
+fifo_tx_empty => reg_fstate.DATAB
+fifo_tx_empty => reg_fstate.DATAB
 CS <= CS.DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -524,14 +527,6 @@ clk => div_cont[0].CLK
 clk => div_cont[1].CLK
 clk => div_cont[2].CLK
 clk => div_cont[3].CLK
-clk => div_cont[4].CLK
-clk => div_cont[5].CLK
-clk => div_cont[6].CLK
-clk => div_cont[7].CLK
-clk => div_cont[8].CLK
-clk => div_cont[9].CLK
-clk => div_cont[10].CLK
-clk => div_cont[11].CLK
 clk => csi_clk~reg0.CLK
 csi_clk <= csi_clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rst => csi_clk.OUTPUTSELECT
@@ -539,28 +534,11 @@ rst => div_cont.OUTPUTSELECT
 rst => div_cont.OUTPUTSELECT
 rst => div_cont.OUTPUTSELECT
 rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
-rst => div_cont.OUTPUTSELECT
 
 
 |proyecto2|shift_register:U3
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => current_data.OUTPUTSELECT
-rst => data_out.IN0
+rst => ~NO_FANOUT~
 clk => data_out~reg0.CLK
-clk => data_out~en.CLK
 clk => current_data[0].CLK
 clk => current_data[1].CLK
 clk => current_data[2].CLK
@@ -585,18 +563,6 @@ load => current_data.OUTPUTSELECT
 load => current_data.OUTPUTSELECT
 load => current_data.OUTPUTSELECT
 load => current_data.OUTPUTSELECT
-load => data_out.IN1
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => current_data.OUTPUTSELECT
-load => data_out.IN1
-load => data_out.OUTPUTSELECT
-load => data_out~en.DATAIN
-data_out <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out <= data_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
