@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_div_mod:U4|csi_clk'
+Slack : -9.182
+TNS   : -84.598
+
+Type  : Slow 1100mV 85C Model Setup 'nReset'
+Slack : -5.861
+TNS   : -26.895
+
+Type  : Slow 1100mV 85C Model Setup 'Mclk'
+Slack : -5.137
+TNS   : -126.145
+
+Type  : Slow 1100mV 85C Model Hold 'Mclk'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_div_mod:U4|csi_clk'
+Slack : 0.963
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'nReset'
+Slack : 1.124
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Mclk'
+Slack : -2.333
+TNS   : -236.294
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_div_mod:U4|csi_clk'
+Slack : -0.724
+TNS   : -11.769
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'nReset'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk_div_mod:U4|csi_clk'
+Slack : -9.121
+TNS   : -86.422
+
+Type  : Slow 1100mV 0C Model Setup 'nReset'
+Slack : -5.721
+TNS   : -26.475
+
+Type  : Slow 1100mV 0C Model Setup 'Mclk'
+Slack : -5.405
+TNS   : -122.466
+
+Type  : Slow 1100mV 0C Model Hold 'Mclk'
+Slack : -0.007
+TNS   : -0.007
+
+Type  : Slow 1100mV 0C Model Hold 'nReset'
+Slack : 0.831
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_div_mod:U4|csi_clk'
+Slack : 1.016
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Mclk'
+Slack : -2.333
+TNS   : -236.259
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_div_mod:U4|csi_clk'
+Slack : -0.724
+TNS   : -11.704
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'nReset'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk_div_mod:U4|csi_clk'
+Slack : -4.012
+TNS   : -32.734
+
+Type  : Fast 1100mV 85C Model Setup 'Mclk'
+Slack : -2.611
+TNS   : -38.416
+
+Type  : Fast 1100mV 85C Model Setup 'nReset'
+Slack : -2.370
+TNS   : -10.917
+
+Type  : Fast 1100mV 85C Model Hold 'Mclk'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_div_mod:U4|csi_clk'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'nReset'
+Slack : 0.558
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Mclk'
+Slack : -1.380
+TNS   : -111.703
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'nReset'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_div_mod:U4|csi_clk'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_div_mod:U4|csi_clk'
+Slack : -3.663
+TNS   : -30.726
+
+Type  : Fast 1100mV 0C Model Setup 'Mclk'
+Slack : -2.211
+TNS   : -33.091
+
+Type  : Fast 1100mV 0C Model Setup 'nReset'
+Slack : -1.988
+TNS   : -9.112
+
+Type  : Fast 1100mV 0C Model Hold 'Mclk'
+Slack : -0.031
+TNS   : -0.088
+
+Type  : Fast 1100mV 0C Model Hold 'clk_div_mod:U4|csi_clk'
+Slack : 0.256
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'nReset'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Mclk'
+Slack : -1.380
+TNS   : -111.866
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'nReset'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_div_mod:U4|csi_clk'
+Slack : 0.085
+TNS   : 0.000
+
+------------------------------------------------------------
