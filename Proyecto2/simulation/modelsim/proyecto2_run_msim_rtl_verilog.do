@@ -12,6 +12,9 @@ vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR
 vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v}
 vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/mux_sel.v}
 vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v}
+vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/rx_shift_register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/parallel_register.v}
 
 vlog -vlog01compat -work work +incdir+C:/Users/mespinoz/Documents/Maestria\ ITCR/Prototipado\ FPGA/Proyecto2 {C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_proyecto2.v}
 

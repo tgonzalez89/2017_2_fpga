@@ -7,7 +7,7 @@ module pre_tx_module (Mclk,Data_Available, fifo_wrreq,nReset);
 	
 	always @(negedge Mclk) begin		
 	
-		if(nReset) begin
+		if(nReset==0) begin
 			fifo_wrreq <= 0;			
 		end
 		

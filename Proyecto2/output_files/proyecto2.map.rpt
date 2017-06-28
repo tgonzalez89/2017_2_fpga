@@ -1,5 +1,5 @@
 Analysis & Elaboration report for proyecto2
-Fri Jun 23 23:21:26 2017
+Sun Jun 25 23:08:55 2017
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
 
 
@@ -11,12 +11,16 @@ Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
   3. Parallel Compilation
   4. Analysis & Elaboration IP Cores Summary
   5. Source assignments for fifo:U1|scfifo:scfifo_component|scfifo_k4i1:auto_generated|a_dpfifo_smc1:dpfifo|altsyncram_0ou1:FIFOram
-  6. Parameter Settings for User Entity Instance: fifo:U1|scfifo:scfifo_component
-  7. Parameter Settings for User Entity Instance: FSM_SPI:U2
-  8. scfifo Parameter Settings by Entity Instance
-  9. Analysis & Elaboration Settings
- 10. Port Connectivity Checks: "fifo:U1"
- 11. Analysis & Elaboration Messages
+  6. Source assignments for fifo_rx:U6|scfifo:scfifo_component|scfifo_c7d1:auto_generated|a_dpfifo_sp91:dpfifo|altsyncram_ons1:FIFOram
+  7. Parameter Settings for User Entity Instance: fifo:U1|scfifo:scfifo_component
+  8. Parameter Settings for User Entity Instance: FSM_SPI:U2
+  9. Parameter Settings for User Entity Instance: fifo_rx:U6|scfifo:scfifo_component
+ 10. scfifo Parameter Settings by Entity Instance
+ 11. Analysis & Elaboration Settings
+ 12. Port Connectivity Checks: "fifo_rx:U6"
+ 13. Port Connectivity Checks: "mux_sel:U5"
+ 14. Port Connectivity Checks: "fifo:U1"
+ 15. Analysis & Elaboration Messages
 
 
 
@@ -43,7 +47,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Fri Jun 23 23:21:26 2017       ;
+; Analysis & Elaboration Status ; Successful - Sun Jun 25 23:08:55 2017       ;
 ; Quartus Prime Version         ; 16.1.2 Build 203 01/18/2017 SJ Lite Edition ;
 ; Revision Name                 ; proyecto2                                   ;
 ; Top-level Entity Name         ; proyecto2                                   ;
@@ -74,13 +78,14 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration IP Cores Summary                                                              ;
-+--------+--------------+---------+--------------+--------------+--------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance    ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+--------------------+-----------------+
-; Altera ; FIFO         ; 16.1    ; N/A          ; N/A          ; |proyecto2|fifo:U1 ; fifo.v          ;
-+--------+--------------+---------+--------------+--------------+--------------------+-----------------+
++---------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration IP Cores Summary                                                                 ;
++--------+--------------+---------+--------------+--------------+-----------------------+-----------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance       ; IP Include File ;
++--------+--------------+---------+--------------+--------------+-----------------------+-----------------+
+; Altera ; FIFO         ; 16.1    ; N/A          ; N/A          ; |proyecto2|fifo:U1    ; fifo.v          ;
+; Altera ; FIFO         ; 16.1    ; N/A          ; N/A          ; |proyecto2|fifo_rx:U6 ; fifo_rx.v       ;
++--------+--------------+---------+--------------+--------------+-----------------------+-----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
@@ -91,6 +96,15 @@ agreement for further details.
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                ;
 ; PRESERVE_REGISTER               ; ON                 ; -    ; rdaddr_reg                                                       ;
 +---------------------------------+--------------------+------+------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for fifo_rx:U6|scfifo:scfifo_component|scfifo_c7d1:auto_generated|a_dpfifo_sp91:dpfifo|altsyncram_ons1:FIFOram ;
++---------------------------------+--------------------+------+---------------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                                  ;
++---------------------------------+--------------------+------+---------------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                   ;
++---------------------------------+--------------------+------+---------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------+
@@ -133,23 +147,63 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; C              ; 3     ; Signed Integer                 ;
 ; D              ; 4     ; Signed Integer                 ;
 ; E              ; 5     ; Signed Integer                 ;
+; F              ; 6     ; Signed Integer                 ;
+; G              ; 7     ; Signed Integer                 ;
+; H              ; 8     ; Signed Integer                 ;
+; I              ; 9     ; Signed Integer                 ;
+; J              ; 10    ; Signed Integer                 ;
 +----------------+-------+--------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------+
-; scfifo Parameter Settings by Entity Instance                 ;
-+----------------------------+---------------------------------+
-; Name                       ; Value                           ;
-+----------------------------+---------------------------------+
-; Number of entity instances ; 1                               ;
-; Entity Instance            ; fifo:U1|scfifo:scfifo_component ;
-;     -- FIFO Type           ; Single Clock                    ;
-;     -- lpm_width           ; 8                               ;
-;     -- LPM_NUMWORDS        ; 16                              ;
-;     -- LPM_SHOWAHEAD       ; OFF                             ;
-;     -- USE_EAB             ; ON                              ;
-+----------------------------+---------------------------------+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fifo_rx:U6|scfifo:scfifo_component ;
++-------------------------+-------------+-----------------------------------------+
+; Parameter Name          ; Value       ; Type                                    ;
++-------------------------+-------------+-----------------------------------------+
+; AUTO_CARRY_CHAINS       ; ON          ; AUTO_CARRY                              ;
+; IGNORE_CARRY_BUFFERS    ; OFF         ; IGNORE_CARRY                            ;
+; AUTO_CASCADE_CHAINS     ; ON          ; AUTO_CASCADE                            ;
+; IGNORE_CASCADE_BUFFERS  ; OFF         ; IGNORE_CASCADE                          ;
+; lpm_width               ; 8           ; Signed Integer                          ;
+; LPM_NUMWORDS            ; 16          ; Signed Integer                          ;
+; LPM_WIDTHU              ; 4           ; Signed Integer                          ;
+; LPM_SHOWAHEAD           ; OFF         ; Untyped                                 ;
+; UNDERFLOW_CHECKING      ; ON          ; Untyped                                 ;
+; OVERFLOW_CHECKING       ; ON          ; Untyped                                 ;
+; ALLOW_RWCYCLE_WHEN_FULL ; OFF         ; Untyped                                 ;
+; ADD_RAM_OUTPUT_REGISTER ; OFF         ; Untyped                                 ;
+; ALMOST_FULL_VALUE       ; 15          ; Signed Integer                          ;
+; ALMOST_EMPTY_VALUE      ; 0           ; Untyped                                 ;
+; ENABLE_ECC              ; FALSE       ; Untyped                                 ;
+; USE_EAB                 ; ON          ; Untyped                                 ;
+; MAXIMIZE_SPEED          ; 5           ; Untyped                                 ;
+; DEVICE_FAMILY           ; Cyclone V   ; Untyped                                 ;
+; OPTIMIZE_FOR_SPEED      ; 5           ; Untyped                                 ;
+; CBXI_PARAMETER          ; scfifo_c7d1 ; Untyped                                 ;
++-------------------------+-------------+-----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; scfifo Parameter Settings by Entity Instance                    ;
++----------------------------+------------------------------------+
+; Name                       ; Value                              ;
++----------------------------+------------------------------------+
+; Number of entity instances ; 2                                  ;
+; Entity Instance            ; fifo:U1|scfifo:scfifo_component    ;
+;     -- FIFO Type           ; Single Clock                       ;
+;     -- lpm_width           ; 8                                  ;
+;     -- LPM_NUMWORDS        ; 16                                 ;
+;     -- LPM_SHOWAHEAD       ; OFF                                ;
+;     -- USE_EAB             ; ON                                 ;
+; Entity Instance            ; fifo_rx:U6|scfifo:scfifo_component ;
+;     -- FIFO Type           ; Single Clock                       ;
+;     -- lpm_width           ; 8                                  ;
+;     -- LPM_NUMWORDS        ; 16                                 ;
+;     -- LPM_SHOWAHEAD       ; OFF                                ;
+;     -- USE_EAB             ; ON                                 ;
++----------------------------+------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -239,6 +293,24 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "fifo_rx:U6"                                                                         ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; full ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "mux_sel:U5"                                                                                                                                                                      ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                           ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; addr ; Input ; Warning  ; Input port expression (14 bits) is wider than the input port (8 bits) it drives.  The 6 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "fifo:U1"                                                                             ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
@@ -255,7 +327,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
-    Info: Processing started: Fri Jun 23 23:21:06 2017
+    Info: Processing started: Sun Jun 25 23:08:35 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off proyecto2 -c proyecto2 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -274,7 +346,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_proy
 Info (12021): Found 1 design units, including 1 entities, in source file tb_pre_tx_module.v
     Info (12023): Found entity 1: tb_pre_tx_module File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_pre_tx_module.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file shift_register.v
-    Info (12023): Found entity 1: shift_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/shift_register.v Line: 1
+    Info (12023): Found entity 1: shift_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/shift_register.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file tb_shift_register.v
     Info (12023): Found entity 1: tb_shift_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_shift_register.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file clk_div_mod.v
@@ -285,11 +357,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file tb_mux_
     Info (12023): Found entity 1: tb_mux_sel File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_mux_sel.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fsm_spi.v
     Info (12023): Found entity 1: FSM_SPI File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file pre_rx_module.v
+    Info (12023): Found entity 1: pre_rx_module File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/pre_rx_module.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file rx_shift_register.v
+    Info (12023): Found entity 1: rx_shift_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/rx_shift_register.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_rx_shift_register.v
+    Info (12023): Found entity 1: tb_rx_shift_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_rx_shift_register.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file fifo_rx.v
+    Info (12023): Found entity 1: fifo_rx File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file parallel_register.v
+    Info (12023): Found entity 1: parallel_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/parallel_register.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file tb_parallel_register.v
+    Info (12023): Found entity 1: tb_parallel_register File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_parallel_register.v Line: 3
+Warning (10236): Verilog HDL Implicit Net warning at proyecto2.v(65): created implicit net for "wrreq" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 65
 Warning (10236): Verilog HDL Implicit Net warning at tb_pre_tx_module.v(9): created implicit net for "fifo_wrreq" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_pre_tx_module.v Line: 9
 Info (12127): Elaborating entity "proyecto2" for the top level hierarchy
-Warning (10034): Output port "BUS_OUT" at proyecto2.v(10) has no driver File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 10
-Info (12128): Elaborating entity "pre_tx_module" for hierarchy "pre_tx_module:U0" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 43
-Info (12128): Elaborating entity "fifo" for hierarchy "fifo:U1" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 44
+Info (12128): Elaborating entity "pre_tx_module" for hierarchy "pre_tx_module:U0" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 65
+Info (12128): Elaborating entity "fifo" for hierarchy "fifo:U1" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 66
 Info (12128): Elaborating entity "scfifo" for hierarchy "fifo:U1|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
 Info (12130): Elaborated megafunction instantiation "fifo:U1|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
 Info (12133): Instantiated megafunction "fifo:U1|scfifo:scfifo_component" with the following parameter: File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v Line: 87
@@ -323,38 +407,69 @@ Info (12128): Elaborating entity "altsyncram_0ou1" for hierarchy "fifo:U1|scfifo
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_hgb.tdf
     Info (12023): Found entity 1: cntr_hgb File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/cntr_hgb.tdf Line: 26
 Info (12128): Elaborating entity "cntr_hgb" for hierarchy "fifo:U1|scfifo:scfifo_component|scfifo_k4i1:auto_generated|a_dpfifo_smc1:dpfifo|cntr_hgb:rd_ptr_count" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/a_dpfifo_smc1.tdf Line: 44
-Info (12128): Elaborating entity "FSM_SPI" for hierarchy "FSM_SPI:U2" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 46
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(93): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 93
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(111): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 111
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(127): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 127
+Info (12128): Elaborating entity "FSM_SPI" for hierarchy "FSM_SPI:U2" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 67
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(120): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 120
 Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(142): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 142
-Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(158): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 158
-Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(160): variable "byte_sends" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 160
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "byte_sends", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_changes_0", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_changes_1", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(56): inferring latch(es) for variable "csa_old", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_old" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_1[0]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_1[1]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_1[2]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_1[3]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_0[0]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_0[1]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_0[2]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "csa_changes_0[3]" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "byte_sends.1110" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (10041): Inferred latch for "byte_sends.0000" at FSM_SPI.v(56) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 56
-Info (12128): Elaborating entity "mux_sel" for hierarchy "mux_sel:U5" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 47
-Info (12128): Elaborating entity "clk_div_mod" for hierarchy "clk_div_mod:U4" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 48
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(163): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 163
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(183): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 183
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(204): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 204
+Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(206): variable "byte_sends" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 206
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(228): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 228
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(250): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 250
+Warning (10235): Verilog HDL Always Construct warning at FSM_SPI.v(294): variable "fifo_rx_empty" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 294
+Warning (10230): Verilog HDL assignment warning at FSM_SPI.v(315): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 315
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(69): inferring latch(es) for variable "byte_sends", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(69): inferring latch(es) for variable "csa_changes_0", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(69): inferring latch(es) for variable "csa_changes_1", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Warning (10240): Verilog HDL Always Construct warning at FSM_SPI.v(69): inferring latch(es) for variable "csa_old", which holds its previous value in one or more paths through the always construct File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_old" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_1[0]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_1[1]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_1[2]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_1[3]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_0[0]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_0[1]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_0[2]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "csa_changes_0[3]" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "byte_sends.1110" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (10041): Inferred latch for "byte_sends.0000" at FSM_SPI.v(69) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v Line: 69
+Info (12128): Elaborating entity "mux_sel" for hierarchy "mux_sel:U5" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 68
+Info (12128): Elaborating entity "clk_div_mod" for hierarchy "clk_div_mod:U4" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 69
 Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(12): truncated value with size 12 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 12
 Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(15): truncated value with size 12 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 15
 Warning (10230): Verilog HDL assignment warning at clk_div_mod.v(17): truncated value with size 32 to match size of target (4) File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v Line: 17
-Info (12128): Elaborating entity "shift_register" for hierarchy "shift_register:U3" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 49
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 16 warnings
-    Info: Peak virtual memory: 673 megabytes
-    Info: Processing ended: Fri Jun 23 23:21:26 2017
+Info (12128): Elaborating entity "shift_register" for hierarchy "shift_register:U3" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 70
+Info (12128): Elaborating entity "fifo_rx" for hierarchy "fifo_rx:U6" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 71
+Info (12128): Elaborating entity "scfifo" for hierarchy "fifo_rx:U6|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v Line: 87
+Info (12130): Elaborated megafunction instantiation "fifo_rx:U6|scfifo:scfifo_component" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v Line: 87
+Info (12133): Instantiated megafunction "fifo_rx:U6|scfifo:scfifo_component" with the following parameter: File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v Line: 87
+    Info (12134): Parameter "add_ram_output_register" = "OFF"
+    Info (12134): Parameter "almost_full_value" = "15"
+    Info (12134): Parameter "intended_device_family" = "Cyclone V"
+    Info (12134): Parameter "lpm_numwords" = "16"
+    Info (12134): Parameter "lpm_showahead" = "OFF"
+    Info (12134): Parameter "lpm_type" = "scfifo"
+    Info (12134): Parameter "lpm_width" = "8"
+    Info (12134): Parameter "lpm_widthu" = "4"
+    Info (12134): Parameter "overflow_checking" = "ON"
+    Info (12134): Parameter "underflow_checking" = "ON"
+    Info (12134): Parameter "use_eab" = "ON"
+Info (12021): Found 1 design units, including 1 entities, in source file db/scfifo_c7d1.tdf
+    Info (12023): Found entity 1: scfifo_c7d1 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/scfifo_c7d1.tdf Line: 25
+Info (12128): Elaborating entity "scfifo_c7d1" for hierarchy "fifo_rx:U6|scfifo:scfifo_component|scfifo_c7d1:auto_generated" File: c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/scfifo.tdf Line: 300
+Info (12021): Found 1 design units, including 1 entities, in source file db/a_dpfifo_sp91.tdf
+    Info (12023): Found entity 1: a_dpfifo_sp91 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/a_dpfifo_sp91.tdf Line: 29
+Info (12128): Elaborating entity "a_dpfifo_sp91" for hierarchy "fifo_rx:U6|scfifo:scfifo_component|scfifo_c7d1:auto_generated|a_dpfifo_sp91:dpfifo" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/scfifo_c7d1.tdf Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_ons1.tdf
+    Info (12023): Found entity 1: altsyncram_ons1 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/altsyncram_ons1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_ons1" for hierarchy "fifo_rx:U6|scfifo:scfifo_component|scfifo_c7d1:auto_generated|a_dpfifo_sp91:dpfifo|altsyncram_ons1:FIFOram" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/db/a_dpfifo_sp91.tdf Line: 43
+Info (12128): Elaborating entity "rx_shift_register" for hierarchy "rx_shift_register:U7" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 72
+Info (12128): Elaborating entity "parallel_register" for hierarchy "parallel_register:U8" File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v Line: 73
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 676 megabytes
+    Info: Processing ended: Sun Jun 25 23:08:55 2017
     Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:45
+    Info: Total CPU time (on all processors): 00:00:43
 
 

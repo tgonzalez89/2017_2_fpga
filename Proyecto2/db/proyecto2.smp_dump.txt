@@ -1,9 +1,0 @@
-
-State Machine - |proyecto2|FSM_SPI:U2|fstate
-Name fstate.E fstate.D fstate.C fstate.B fstate.A fstate.IDLE 
-fstate.IDLE 0 0 0 0 0 0 
-fstate.A 0 0 0 0 1 1 
-fstate.B 0 0 0 1 0 1 
-fstate.C 0 0 1 0 0 1 
-fstate.D 0 1 0 0 0 1 
-fstate.E 1 0 0 0 0 1 

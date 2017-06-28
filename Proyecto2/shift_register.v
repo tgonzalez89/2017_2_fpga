@@ -1,3 +1,5 @@
+`timescale 1ns/100ps
+
 module shift_register (rst,clk,data_in,load,data_out);
 
 	input rst, clk,load;
@@ -9,7 +11,7 @@ module shift_register (rst,clk,data_in,load,data_out);
 	
 	
 	always @(posedge clk) begin
-		if(rst) begin
+		if(rst==0) begin
 			current_data <= 8'h0;
 			data_out <= 1'h0;
 		end

@@ -12,8 +12,7 @@ module tb_fifo ();
 	wire	[7:0]  q;
 	wire	[3:0]  usedw;
 	
-	fifo U0 (.sclr(sclr), .clock(clock), .data(data), .rdreq(rdreq), .wrreq(wrreq), .almost_full(almost_full), .empty(empty), .full(full), .q(q), .usedw(usedw));
-	
+	fifo_rx U0 (.sclr(sclr), .clock(clock), .data(data), .rdreq(rdreq), .wrreq(wrreq), .almost_full(almost_full), .empty(empty), .full(full), .q(q), .usedw(usedw));
 	
 
 	initial begin

@@ -20,22 +20,35 @@
 
 `timescale 1ns/1ns
 
-module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_read_rq,fifo_tx_empty,CS);
+module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, rx_almost_full, data_sel,tx_load,fifo_tx_read_rq,fifo_tx_empty,CS, data_rx_read_rq, rx_load, fifo_rx_wrreq,fifo_rx_rdreq,fifo_rx_empty,rx_data_out_wr);
 
     input clock;
     input reset;
     input tx_almost_full;
     input CSI_CLK;
 	 input fifo_tx_empty;
-	 
+	 input fifo_rx_empty;
+	 input data_rx_read_rq;
+	 input rx_almost_full;
+	 	 
     output data_sel;
     output tx_load;
     output fifo_tx_read_rq;
+	 output rx_load;
+	 output fifo_rx_wrreq;
+	 output fifo_rx_rdreq;
     output CS;
-	 
+	 output rx_data_out_wr;
+
 	 reg [3:0] byte_sends;
     reg data_sel;
     reg tx_load;
+	 reg fifo_rx_wrreq;
+	 reg fifo_rx_rdreq;
+	 reg rx_load;
+	 reg rx_data_out_wr;
+
+	 
     reg fifo_tx_read_rq;
     reg CS;
     reg [3:0] fstate;
@@ -44,7 +57,7 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
 	 reg [3:0] csa_changes_1;
 	 reg csa_old;
 	 
-	 parameter IDLE=0,A=1,B=2,C=3,D=4, E=5;
+	 parameter IDLE=0,A=1,B=2,C=3,D=4, E=5, F=6, G=7, H=8, I=9, J=10;
 
     always @(posedge clock)
     begin
@@ -53,48 +66,62 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
         end
     end
 
-    always @(fstate or reset or tx_almost_full or CSI_CLK or csa_old or csa_changes_1 or csa_changes_0 or fifo_tx_empty)
+    always @(fstate or reset or tx_almost_full or rx_almost_full or CSI_CLK or csa_old or csa_changes_1 or csa_changes_0 or fifo_tx_empty or data_rx_read_rq or fifo_rx_rdreq)
     begin
-        if (reset) begin
+        if (reset==0) begin
             reg_fstate <= IDLE;
             data_sel <= 1'b0;
             tx_load <= 1'b0;
             fifo_tx_read_rq <= 1'b0;
             CS <= 1'b1;
 				byte_sends <= 0;
+				rx_load <= 0;
+				fifo_rx_wrreq <= 0;
+				fifo_rx_rdreq <= 1'b0;
+				rx_data_out_wr <= 0;
+			
         end
         else begin
             data_sel <= 1'b0;
             tx_load <= 1'b0;
             fifo_tx_read_rq <= 1'b0;
+				rx_load <= 0;
             CS <= 1'b0;
+				fifo_rx_wrreq <= 0;
             case (fstate)
                 IDLE: begin
-                    if ((tx_almost_full == 1'b0))
+                    if ((tx_almost_full == 1'b0) & (data_rx_read_rq == 1'b0))
                         reg_fstate <= IDLE;
                     else if ((tx_almost_full == 1'b1))
                         reg_fstate <= A;
                     // Inserting 'else' block to prevent latch inference
-                    else
+                    else if((data_rx_read_rq == 1'b1)) begin								
+								reg_fstate <= J;
+						  end else begin
                         reg_fstate <= IDLE;
-
+						  end
+						  
                     CS <= 1'b1;
                     fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b1;
-
+						  rx_load <= 0;
+						  fifo_rx_wrreq <= 0;
                     data_sel <= 1'b0;
 						  csa_changes_0 <= 0;
 						  csa_changes_1 <= 0;
 						  csa_old <= 0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+						  
                 end
                 A: begin
                     reg_fstate <= A;
 						  if(csa_old == 0 & CSI_CLK == 1) begin
 								csa_changes_0 <= csa_changes_0 + 1;
 								fifo_tx_read_rq <= 1'b0;
-							end else if (csa_changes_0 == 4'h8) begin
+							end else if (csa_changes_0 == 4'h7) begin
+							    fifo_tx_read_rq <= 1'b1;
 								 reg_fstate <= B;
-								 fifo_tx_read_rq <= 1'b1;
 							end
 
                     CS <= 1'b0;
@@ -102,7 +129,11 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
                     tx_load <= 1'b0;
                     data_sel <= 1'b0;								
 						  csa_old <= CSI_CLK;
-						  
+						  rx_load <= 0;
+						  fifo_rx_wrreq <= 0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+						 
 						  
                 end
                 B: begin
@@ -118,7 +149,12 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
                     fifo_tx_read_rq <= 1'b0;
                     tx_load <= 1'b1;
                     data_sel <= 1'b1;
+						  rx_load <= 0;
 						  csa_old <= CSI_CLK;
+						  fifo_rx_rdreq <= 1'b0;
+						  fifo_rx_wrreq <= 0;
+						  rx_data_out_wr <= 0;
+						
                 end
 
                 C: begin
@@ -132,8 +168,13 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
                     csa_changes_1 <= 0;
                     tx_load <= 1'b0;
                     data_sel <= 1'b1;
-						  fifo_tx_read_rq <= 1'b0;		
+						  rx_load <= 0;
+						  fifo_tx_read_rq <= 1'b0;	
+					  	  fifo_rx_wrreq <= 0; 
+						  fifo_rx_rdreq <= 1'b0;
 						  csa_old <= CSI_CLK;
+						  rx_data_out_wr <= 0;
+						
                 end
 
                 D: begin
@@ -147,8 +188,13 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
                     CS <= 1'b0;
                     csa_changes_1 <= 0;
                     tx_load <= 1'b0;
+						  rx_load <= 0;
                     data_sel <= 1'b1;
+						  fifo_rx_wrreq <= 0;
+						  fifo_rx_rdreq <= 1'b0;
 						  csa_old <= CSI_CLK;
+						  rx_data_out_wr <= 0;
+				
                 end
 
 
@@ -167,12 +213,122 @@ module FSM_SPI (CSI_CLK, clock,reset,tx_almost_full, data_sel,tx_load,fifo_tx_re
                     csa_changes_0 <= 0;
                     tx_load <= 1'b1;
                     data_sel <= 1'b1;
+						  rx_load <= 0;
+						  fifo_rx_wrreq <= 0;
 						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b0;
 						  csa_old <= CSI_CLK;
+						  rx_data_out_wr <= 0;
+					
                 end
 
-					 
+					F: begin
+                    reg_fstate <= F;
+						  if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_0 <= csa_changes_0 + 1;								
+							end else if (csa_changes_0 == 4'h8) begin
+								 rx_load <= 1;
+								 reg_fstate <= G;
+							end
 
+                    CS <= 1'b0;
+                    csa_changes_1 <= 0;
+                    tx_load <= 1'b0;
+                    data_sel <= 1'b0;	
+						  fifo_rx_wrreq <= 0;					  
+						  csa_old <= CSI_CLK;
+						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+					
+						  
+                end					 
+
+					G: begin
+                    reg_fstate <= G;
+						  if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_1 <= csa_changes_1 + 1;								
+							end else if (csa_changes_1 == 4'h8) begin
+								 reg_fstate <= H;
+								  fifo_rx_wrreq <= 1;			
+							end
+
+                    CS <= 1'b0;
+						  rx_load <= 1;
+                    csa_changes_0 <= 0;
+                    tx_load <= 1'b0;
+                    data_sel <= 1'b0;								
+						  csa_old <= CSI_CLK;
+						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+						
+						  
+                end
+
+					H: begin
+                    reg_fstate <= H;
+						  if(rx_almost_full == 1) begin
+								reg_fstate <= I;
+						  end else begin
+								reg_fstate <= G;
+						  end
+						  
+                    CS <= 1'b0;
+						  rx_load <= 0;
+                    csa_changes_1 <= 0;
+						  csa_changes_0 <= 0;
+                    tx_load <= 1'b0;
+                    data_sel <= 1'b0;								
+						  csa_old <= CSI_CLK;
+						  fifo_rx_wrreq <= 0;			
+						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+						 
+						  
+                end
+
+					I: begin
+                    reg_fstate <= I;
+						  if(fifo_rx_empty == 1) begin
+								reg_fstate <= IDLE;
+						  end 
+						  
+                    CS <= 1'b1;
+						  rx_load <= 0;
+                    csa_changes_1 <= 0;
+                    tx_load <= 1'b0;
+                    data_sel <= 1'b0;								
+						  csa_old <= CSI_CLK;
+						  fifo_rx_wrreq <= 0;			
+						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b1;
+						  rx_data_out_wr <= 1;
+					
+						  
+                end
+					 
+					 J: begin
+                    reg_fstate <= J;
+						  if(csa_old == 0 & CSI_CLK == 1) begin
+								csa_changes_1 <= csa_changes_1 + 1;								
+							end else if (csa_changes_1 == 4'h1) begin
+								 reg_fstate <= F;
+							end
+
+                    CS <= 1'b1;
+                    csa_changes_0 <= 0;
+                    tx_load <= 1'b1;
+                    data_sel <= 1'b0;	
+						  fifo_rx_wrreq <= 0;					  
+						  csa_old <= CSI_CLK;
+						  fifo_tx_read_rq <= 1'b0;
+						  fifo_rx_rdreq <= 1'b0;
+						  rx_data_out_wr <= 0;
+					
+						  
+                end			
                 default: begin
                     data_sel <= 1'bx;
                     tx_load <= 1'bx;
