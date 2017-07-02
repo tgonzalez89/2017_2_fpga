@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/simulation/modelsim
 vclk_div_mod
-Z1 !s110 1498453974
+Z1 !s110 1498756746
 !i10b 1
 !s100 0TEZ``K0mXh<[=l5mMT[E0
 I6T4_mm^nDkSAFBz5cNNk;2
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1498453974.000000
+Z5 !s108 1498756746.000000
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/clk_div_mod.v|
 !i113 1
@@ -31,7 +31,7 @@ Z6 o-vlog01compat -work work
 Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2}
 Z8 tCvgOpt 0
 vfifo
-R1
+Z9 !s110 1498756745
 !i10b 1
 !s100 <0MOHMhO]]T8fH[b^SKLS1
 Ieea2l<:l9Ie6=BSCc_B?a1
@@ -40,12 +40,12 @@ R0
 w1497937282
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v
-Z9 L0 40
+Z10 L0 40
 R4
 r1
 !s85 0
 31
-R5
+Z11 !s108 1498756745.000000
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo.v|
 !i113 1
@@ -53,7 +53,7 @@ R6
 R7
 R8
 vfifo_rx
-Z10 !s110 1498453975
+Z12 !s110 1498756747
 !i10b 1
 !s100 4_>DUn37k`Nkk:PUb74Ra3
 INePkZze8U[MCQdUYFOW^K0
@@ -62,12 +62,12 @@ R0
 w1498329325
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v
-R9
+R10
 R4
 r1
 !s85 0
 31
-Z11 !s108 1498453975.000000
+Z13 !s108 1498756747.000000
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/fifo_rx.v|
 !i113 1
@@ -75,13 +75,13 @@ R6
 R7
 R8
 vFSM_SPI
-R10
+R12
 !i10b 1
-!s100 V>hf<45j[NCQT]b1ze2]02
-I:aC3U5eiQkAnXZ7GTa8@G0
+!s100 J4OQHffE6:A>hhP^`UX`L0
+I=KjOi>heeQ6AdeI61_>B`1
 R2
 R0
-w1498453364
+w1498718072
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v
 L0 23
@@ -120,7 +120,7 @@ R6
 R7
 R8
 vparallel_register
-R10
+R12
 !i10b 1
 !s100 fMo:eWVbhW34gd_EhYAmR0
 IODOaiiCUC5II><^chc2k91
@@ -134,7 +134,7 @@ R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/parallel_register.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/parallel_register.v|
 !i113 1
@@ -144,11 +144,11 @@ R8
 vpre_tx_module
 R1
 !i10b 1
-!s100 0X?`haA0;X:hTIgES871W2
-IA@X[LdT3??G6Sziia426B2
+!s100 ]`zonDJfWjBNZjSFB;d550
+IMOef:A33i]WOYbZ4QYJ@52
 R2
 R0
-Z12 w1498439696
+w1498709825
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/pre_tx_module.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/pre_tx_module.v
 L0 1
@@ -164,13 +164,13 @@ R6
 R7
 R8
 vproyecto2
-R1
+R9
 !i10b 1
-!s100 zX3I5S;V2:9]^FF@Sf83^3
-IdNR_h7ElkF16M`9UlEW:Q3
+!s100 4bWPkWKR^C;;iZHhg_]_N2
+I;dPJj6Rj_Xj7WX_]DIFA]1
 R2
 R0
-w1498451657
+w1498751875
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v
 L0 3
@@ -178,7 +178,7 @@ R4
 r1
 !s85 0
 31
-R5
+R11
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/proyecto2.v|
 !i113 1
@@ -186,7 +186,7 @@ R6
 R7
 R8
 vrx_shift_register
-R10
+R12
 !i10b 1
 !s100 5gM`S;mlco8@JkX0gI[VB2
 IU_YXBShFUFH9cXO6CMg2M1
@@ -200,7 +200,7 @@ R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/rx_shift_register.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/rx_shift_register.v|
 !i113 1
@@ -214,7 +214,7 @@ R1
 IJNH:jJ>ohn7[nL1b2jg4E2
 R2
 R0
-R12
+w1498439696
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/shift_register.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/shift_register.v
 L0 3
@@ -230,13 +230,13 @@ R6
 R7
 R8
 vtb_proyecto2
-R10
+R12
 !i10b 1
-!s100 HM<2PzMGoJn9nMz`RCYCG1
-IO8kgU<UG3e?J9d]OOifo02
+!s100 6_JFA363hmDkTBNm2COfd1
+IDWDK;bB3:kRhN;Lf8fd242
 R2
 R0
-w1498453957
+w1498715166
 8C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_proyecto2.v
 FC:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_proyecto2.v
 L0 3
@@ -244,7 +244,7 @@ R4
 r1
 !s85 0
 31
-R11
+R13
 !s107 C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_proyecto2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2|C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_proyecto2.v|
 !i113 1

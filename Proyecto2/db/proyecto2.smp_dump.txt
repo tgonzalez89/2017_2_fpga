@@ -1,0 +1,15 @@
+
+State Machine - |proyecto2|FSM_SPI:U2|fstate
+Name fstate.K fstate.J fstate.I fstate.H fstate.G fstate.F fstate.E fstate.D fstate.C fstate.B fstate.A fstate.IDLE 
+fstate.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+fstate.A 0 0 0 0 0 0 0 0 0 0 1 1 
+fstate.B 0 0 0 0 0 0 0 0 0 1 0 1 
+fstate.C 0 0 0 0 0 0 0 0 1 0 0 1 
+fstate.D 0 0 0 0 0 0 0 1 0 0 0 1 
+fstate.E 0 0 0 0 0 0 1 0 0 0 0 1 
+fstate.F 0 0 0 0 0 1 0 0 0 0 0 1 
+fstate.G 0 0 0 0 1 0 0 0 0 0 0 1 
+fstate.H 0 0 0 1 0 0 0 0 0 0 0 1 
+fstate.I 0 0 1 0 0 0 0 0 0 0 0 1 
+fstate.J 0 1 0 0 0 0 0 0 0 0 0 1 
+fstate.K 1 0 0 0 0 0 0 0 0 0 0 1 

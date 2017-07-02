@@ -504,11 +504,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "rst_clk",
+					"name" : "Read_RQ",
 					"strict" : false
 				},
 				{
-					"name" : "Read_RQ",
+					"name" : "rst_clk",
 					"strict" : false
 				},
 				{
@@ -528,15 +528,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "BUS_IN[0]",
-					"strict" : false
-				},
-				{
 					"name" : "Address[2]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_IN[1]",
+					"name" : "BUS_IN[0]",
 					"strict" : false
 				},
 				{
@@ -544,7 +540,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "BUS_IN[2]",
+					"name" : "BUS_IN[1]",
 					"strict" : false
 				},
 				{
@@ -552,7 +548,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "BUS_IN[3]",
+					"name" : "BUS_IN[2]",
 					"strict" : false
 				},
 				{
@@ -560,11 +556,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "BUS_IN[4]",
+					"name" : "BUS_IN[3]",
 					"strict" : false
 				},
 				{
 					"name" : "Address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BUS_IN[4]",
 					"strict" : false
 				},
 				{
