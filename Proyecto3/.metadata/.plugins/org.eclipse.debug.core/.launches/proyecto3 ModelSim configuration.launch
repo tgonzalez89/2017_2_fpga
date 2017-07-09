@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.altera.sbtgui.launch.modelsim.Nios2ModelsimLaunchConfiguration">
+<stringAttribute key="elfFile" value="E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\software\proyecto3\proyecto3.elf"/>
+<stringAttribute key="modelSimPath" value="C:\altera_lite\16.0\modelsim_ase\win32aloem"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
+<booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="proyecto3.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="proyecto3"/>
+<stringAttribute key="spdPath" value="E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system_tb.spd"/>
+</launchConfiguration>
