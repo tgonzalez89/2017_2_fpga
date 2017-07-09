@@ -1,6 +1,6 @@
 Info: Starting: Create testbench Qsys system
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system.ipx
-Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system.qsys --testbench=SIMPLE --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3 --family="Cyclone V" --part=5CSEMA4U23C6
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system.ipx
+Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system.qsys --testbench=SIMPLE --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3 --family="Cyclone V" --part=5CSEMA4U23C6
 Progress: Loading Proyecto3/proyecto3_system.qsys
 Progress: Reading input file
 Progress: Adding clk_source [clock_source 16.0]
@@ -31,31 +31,31 @@ Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx: Loading 
 Info: Reading index C:\altera_lite\16.0\quartus\sopc_builder\bin\ip_component_categories.ipx
 Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
 Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ip/**/* matched 0 files in 0.00 seconds
-Info: Reading index E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system\testbench\proyecto3_system.ipx
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system\testbench\proyecto3_system.ipx
 Progress: Loading Proyecto3/proyecto3_system.qsys
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/* matched 9 files in 0.00 seconds
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/ip/**/* matched 0 files in 0.00 seconds
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/*/* matched 12 files in 0.00 seconds
-Info: E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system\testbench\proyecto3_system.ipx described 0 plugins, 3 paths, in 0.01 seconds
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/* matched 4 files in 0.01 seconds
-Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/*/* matched 0 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/* matched 9 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/ip/**/* matched 0 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/*/* matched 6 files in 0.00 seconds
+Info: E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system\testbench\proyecto3_system.ipx described 0 plugins, 3 paths, in 0.01 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/* matched 4 files in 0.01 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/*/* matched 0 files in 0.00 seconds
 Info: C:/Users/tomas/.altera.quartus/ip/16.0/**/* matched 0 files in 0.00 seconds
 Info: Reading index C:\altera_lite\16.0\ip\altera\altera_components.ipx
-Info: C:\altera_lite\16.0\ip\altera\altera_components.ipx described 1854 plugins, 0 paths, in 0.12 seconds
+Info: C:\altera_lite\16.0\ip\altera\altera_components.ipx described 1854 plugins, 0 paths, in 0.18 seconds
 Info: Reading index C:\altera_lite\16.0\ip\altera\up.ipx
 Info: C:\altera_lite\16.0\ip\altera\up.ipx described 2 plugins, 0 paths, in 0.00 seconds
-Info: C:/altera_lite/16.0/ip/**/* matched 138 files in 0.13 seconds
+Info: C:/altera_lite/16.0/ip/**/* matched 138 files in 0.20 seconds
 Info: C:/altera_lite/ip/**/* matched 0 files in 0.00 seconds
 Info: Reading index C:\altera_lite\16.0\quartus\sopc_builder\builtin.ipx
-Info: C:\altera_lite\16.0\quartus\sopc_builder\builtin.ipx described 82 plugins, 0 paths, in 0.00 seconds
+Info: C:\altera_lite\16.0\quartus\sopc_builder\builtin.ipx described 82 plugins, 0 paths, in 0.01 seconds
 Info: C:/altera_lite/16.0/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
 Info: Reading index C:\altera_lite\16.0\quartus\common\librarian\factories\index.ipx
-Info: C:\altera_lite\16.0\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
-Info: C:/altera_lite/16.0/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: C:\altera_lite\16.0\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.02 seconds
+Info: C:/altera_lite/16.0/quartus/common/librarian/factories/**/* matched 4 files in 0.02 seconds
 Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
-Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 10 paths, in 0.15 seconds
-Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.15 seconds
+Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 10 paths, in 0.24 seconds
+Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.24 seconds
 Progress: 
 Progress: 
 Progress: 
@@ -131,9 +131,9 @@ Info: TB_Gen: Saving testbench system: proyecto3_system_tb.qsys
 Info: save_system proyecto3_system_tb.qsys
 Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
 Info: TB_Gen: TBGEN SUCCESSFUL
-Info: Testbench system: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb.qsys
+Info: Testbench system: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb.qsys
 Info: Done
-Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=SIMPLE --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system\testbench\proyecto3_system_tb\simulation --family="Cyclone V" --part=5CSEMA4U23C6
+Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=SIMPLE --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system\testbench\proyecto3_system_tb\simulation --family="Cyclone V" --part=5CSEMA4U23C6
 Progress: Loading testbench/proyecto3_system_tb.qsys
 Progress: Reading input file
 Progress: Adding proyecto3_system_inst [proyecto3_system 1.0]
@@ -159,22 +159,22 @@ Info: proyecto3_system_tb: Generating proyecto3_system_tb "proyecto3_system_tb" 
 Info: proyecto3_system_inst: "proyecto3_system_tb" instantiated proyecto3_system "proyecto3_system_inst"
 Info: proyecto3_system_inst_clk_bfm: "proyecto3_system_tb" instantiated altera_avalon_clock_source "proyecto3_system_inst_clk_bfm"
 Info: proyecto3_system_inst_reset_bfm: "proyecto3_system_tb" instantiated altera_avalon_reset_source "proyecto3_system_inst_reset_bfm"
-Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/verbosity_pkg.sv
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/verbosity_pkg.sv
 Info: jtag_uart: Starting RTL generation for module 'proyecto3_system_jtag_uart'
-Info: jtag_uart:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=proyecto3_system_jtag_uart --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0003_jtag_uart_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0003_jtag_uart_gen//proyecto3_system_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0003_jtag_uart_gen/  ]
+Info: jtag_uart:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=proyecto3_system_jtag_uart --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0003_jtag_uart_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0003_jtag_uart_gen//proyecto3_system_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0003_jtag_uart_gen/  ]
 Info: jtag_uart: Done RTL generation for module 'proyecto3_system_jtag_uart'
 Info: jtag_uart: "proyecto3_system_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
 Info: nios_ii_processor: "proyecto3_system_inst" instantiated altera_nios2_gen2 "nios_ii_processor"
 Info: on_chip_memory: Starting RTL generation for module 'proyecto3_system_on_chip_memory'
-Info: on_chip_memory:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=proyecto3_system_on_chip_memory --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0004_on_chip_memory_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0004_on_chip_memory_gen//proyecto3_system_on_chip_memory_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0004_on_chip_memory_gen/  ]
+Info: on_chip_memory:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=proyecto3_system_on_chip_memory --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0004_on_chip_memory_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0004_on_chip_memory_gen//proyecto3_system_on_chip_memory_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0004_on_chip_memory_gen/  ]
 Info: on_chip_memory: Done RTL generation for module 'proyecto3_system_on_chip_memory'
 Info: on_chip_memory: "proyecto3_system_inst" instantiated altera_avalon_onchip_memory2 "on_chip_memory"
 Info: spi: Starting RTL generation for module 'proyecto3_system_spi'
-Info: spi:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=proyecto3_system_spi --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0005_spi_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0005_spi_gen//proyecto3_system_spi_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0005_spi_gen/  ]
+Info: spi:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=proyecto3_system_spi --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0005_spi_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0005_spi_gen//proyecto3_system_spi_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0005_spi_gen/  ]
 Info: spi: Done RTL generation for module 'proyecto3_system_spi'
 Info: spi: "proyecto3_system_inst" instantiated altera_avalon_spi "spi"
 Info: timer: Starting RTL generation for module 'proyecto3_system_timer'
-Info: timer:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=proyecto3_system_timer --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0006_timer_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0006_timer_gen//proyecto3_system_timer_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0006_timer_gen/  ]
+Info: timer:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=proyecto3_system_timer --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0006_timer_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0006_timer_gen//proyecto3_system_timer_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0006_timer_gen/  ]
 Info: timer: Done RTL generation for module 'proyecto3_system_timer'
 Info: timer: "proyecto3_system_inst" instantiated altera_avalon_timer "timer"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
@@ -186,20 +186,20 @@ Info: mm_interconnect_0: "proyecto3_system_inst" instantiated altera_mm_intercon
 Info: irq_mapper: "proyecto3_system_inst" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "proyecto3_system_inst" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'proyecto3_system_nios_ii_processor_cpu'
-Info: cpu:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//eperlcmd.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=proyecto3_system_nios_ii_processor_cpu --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0009_cpu_gen/ --quartus_bindir=C:/altera_lite/16.0/quartus/bin64/ --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0009_cpu_gen//proyecto3_system_nios_ii_processor_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0009_cpu_gen/  ]
-Info: cpu: # 2017.07.08 19:30:12 (*) Starting Nios II generation
-Info: cpu: # 2017.07.08 19:30:12 (*)   Checking for plaintext license.
-Info: cpu: # 2017.07.08 19:30:12 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/16.0/quartus/bin64/
-Info: cpu: # 2017.07.08 19:30:12 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2017.07.08 19:30:12 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2017.07.08 19:30:12 (*)   Plaintext license not found.
-Info: cpu: # 2017.07.08 19:30:12 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2017.07.08 19:30:12 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2017.07.08 19:30:12 (*)   Creating all objects for CPU
-Info: cpu: # 2017.07.08 19:30:13 (*)   Creating 'C:/Users/tomas/AppData/Local/Temp/alt7356_5170573100013494066.dir/0009_cpu_gen//proyecto3_system_nios_ii_processor_cpu_nios2_waves.do'
-Info: cpu: # 2017.07.08 19:30:13 (*)   Generating RTL from CPU objects
-Info: cpu: # 2017.07.08 19:30:13 (*)   Creating plain-text RTL
-Info: cpu: # 2017.07.08 19:30:14 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//eperlcmd.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=proyecto3_system_nios_ii_processor_cpu --dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0009_cpu_gen/ --quartus_bindir=C:/altera_lite/16.0/quartus/bin64/ --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0009_cpu_gen//proyecto3_system_nios_ii_processor_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0009_cpu_gen/  ]
+Info: cpu: # 2017.07.09 07:36:41 (*) Starting Nios II generation
+Info: cpu: # 2017.07.09 07:36:41 (*)   Checking for plaintext license.
+Info: cpu: # 2017.07.09 07:36:41 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/16.0/quartus/bin64/
+Info: cpu: # 2017.07.09 07:36:41 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.07.09 07:36:41 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.07.09 07:36:41 (*)   Plaintext license not found.
+Info: cpu: # 2017.07.09 07:36:41 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2017.07.09 07:36:41 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.07.09 07:36:41 (*)   Creating all objects for CPU
+Info: cpu: # 2017.07.09 07:36:43 (*)   Creating 'C:/Users/tomas/AppData/Local/Temp/alt7356_7031536617811127863.dir/0009_cpu_gen//proyecto3_system_nios_ii_processor_cpu_nios2_waves.do'
+Info: cpu: # 2017.07.09 07:36:43 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.07.09 07:36:43 (*)   Creating plain-text RTL
+Info: cpu: # 2017.07.09 07:36:43 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'proyecto3_system_nios_ii_processor_cpu'
 Info: cpu: "nios_ii_processor" instantiated altera_nios2_gen2_unit "cpu"
 Info: nios_ii_processor_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios_ii_processor_data_master_translator"
@@ -215,31 +215,31 @@ Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "c
 Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
 Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
-Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
-Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
-Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
 Info: proyecto3_system_tb: Done "proyecto3_system_tb" with 31 modules, 52 files
 Info: qsys-generate succeeded.
-Info: sim-script-gen --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ --use-relative-paths=true
-Info: Doing: ip-make-simscript --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\proyecto3_system_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ --use-relative-paths=true
-Info: Generating the following file(s) for MODELSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ directory:
+Info: sim-script-gen --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto3\Proyecto3\proyecto3_system_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ directory:
 Info: 	mentor/msim_setup.tcl
-Info: Generating the following file(s) for VCS simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ directory:
+Info: Generating the following file(s) for VCS simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ directory:
 Info: 	synopsys/vcs/vcs_setup.sh
-Info: Generating the following file(s) for VCSMX simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ directory:
+Info: Generating the following file(s) for VCSMX simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ directory:
 Info: 	synopsys/vcsmx/synopsys_sim.setup
 Info: 	synopsys/vcsmx/vcsmx_setup.sh
-Info: Generating the following file(s) for NCSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ directory:
+Info: Generating the following file(s) for NCSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ directory:
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
 Info: 	31 .cds.lib files in cadence/cds_libs/ directory
-Info: Generating the following file(s) for RIVIERA simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/ directory:
+Info: Generating the following file(s) for RIVIERA simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/ directory:
 Info: 	aldec/rivierapro_setup.tcl
-Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/.
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/.
 Info: Finished: Create testbench Qsys system

@@ -5,6 +5,7 @@
 # C:/altera_lite/16.0/quartus/
 # Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
 # vmap work ./libraries/work/ 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
 # vmap work_lib ./libraries/work/ 
@@ -140,203 +141,203 @@
 # [exec] dev_com
 # [exec] com
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:20 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# Start time: 07:43:09 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
 # -- Compiling package verbosity_pkg
 # 
 # Top level modules:
 # 	--none--
-# End time: 00:35:20 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:20 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
 # -- Compiling module proyecto3_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-# End time: 00:35:20 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:20 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
 # -- Compiling module proyecto3_system_mm_interconnect_0_avalon_st_adapter
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_avalon_st_adapter
-# End time: 00:35:20 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:20 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module proyecto3_system_mm_interconnect_0_rsp_mux_001
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_rsp_mux_001
-# End time: 00:35:20 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:20 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 00:35:20 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module proyecto3_system_mm_interconnect_0_rsp_mux
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_rsp_mux
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
 # -- Compiling module proyecto3_system_mm_interconnect_0_rsp_demux
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_rsp_demux
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_mux_001.sv -L altera_common_sv_packages -work cmd_mux_001 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_mux_001.sv -L altera_common_sv_packages -work cmd_mux_001 
 # -- Compiling module proyecto3_system_mm_interconnect_0_cmd_mux_001
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_cmd_mux_001
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:10 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_001 
+# Start time: 07:43:10 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_001 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module proyecto3_system_mm_interconnect_0_cmd_mux
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_cmd_mux
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
 # -- Compiling module proyecto3_system_mm_interconnect_0_cmd_demux_001
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_cmd_demux_001
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:21 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
 # -- Compiling module proyecto3_system_mm_interconnect_0_cmd_demux
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_cmd_demux
-# End time: 00:35:21 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_003.sv -L altera_common_sv_packages -work router_003 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_003.sv -L altera_common_sv_packages -work router_003 
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_003_default_decode
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_003
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_router_003
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_002_default_decode
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_002
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_router_002
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_001_default_decode
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_001
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_router_001
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# Start time: 07:43:11 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
 # -- Compiling module proyecto3_system_mm_interconnect_0_router_default_decode
 # -- Compiling module proyecto3_system_mm_interconnect_0_router
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0_router
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:11 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_sc_fifo.v -work jtag_uart_avalon_jtag_slave_agent_rsp_fifo 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_sc_fifo.v -work jtag_uart_avalon_jtag_slave_agent_rsp_fifo 
 # -- Compiling module altera_avalon_sc_fifo
 # 
 # Top level modules:
 # 	altera_avalon_sc_fifo
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
 # -- Compiling module altera_merlin_slave_agent
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
 # 
 # (randomization, coverage or assertion) detected in the design.
 # 
 # These features are only supported in Questasim.
 # 
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 # 
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 # 
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 # 
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 # 
-# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# ** Warning: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
 # 
 # (randomization, coverage or assertion) detected in the design.
 # 
@@ -345,47 +346,47 @@
 # 
 # Top level modules:
 # 	altera_merlin_slave_agent
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_agent 
 # -- Compiling module altera_merlin_burst_uncompressor
 # 
 # Top level modules:
 # 	altera_merlin_burst_uncompressor
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work nios_ii_processor_data_master_agent 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work nios_ii_processor_data_master_agent 
 # -- Compiling module altera_merlin_master_agent
 # 
 # Top level modules:
 # 	altera_merlin_master_agent
-# End time: 00:35:22 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:22 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_translator 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work jtag_uart_avalon_jtag_slave_translator 
 # -- Compiling module altera_merlin_slave_translator
 # 
 # Top level modules:
 # 	altera_merlin_slave_translator
-# End time: 00:35:23 on Jul 09,2017, Elapsed time: 0:00:01
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:23 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work nios_ii_processor_data_master_translator 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work nios_ii_processor_data_master_translator 
 # -- Compiling module altera_merlin_master_translator
 # 
 # Top level modules:
 # 	altera_merlin_master_translator
-# End time: 00:35:23 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:12 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:23 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v -work cpu 
+# Start time: 07:43:12 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v -work cpu 
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_register_bank_a_module
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_register_bank_b_module
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_nios2_oci_debug
@@ -411,119 +412,119 @@
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor_cpu_nios2_performance_monitors
 # 	proyecto3_system_nios_ii_processor_cpu
-# End time: 00:35:23 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:23 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_sysclk.v -work cpu 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_sysclk.v -work cpu 
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_debug_slave_sysclk
 # 
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor_cpu_debug_slave_sysclk
-# End time: 00:35:23 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:23 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_tck.v -work cpu 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_tck.v -work cpu 
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_debug_slave_tck
 # 
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor_cpu_debug_slave_tck
-# End time: 00:35:23 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:23 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_wrapper.v -work cpu 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_debug_slave_wrapper.v -work cpu 
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_debug_slave_wrapper
 # 
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor_cpu_debug_slave_wrapper
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:01
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_test_bench.v -work cpu 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu_test_bench.v -work cpu 
 # -- Compiling module proyecto3_system_nios_ii_processor_cpu_test_bench
 # 
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor_cpu_test_bench
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# Start time: 07:43:13 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
 # -- Compiling module proyecto3_system_irq_mapper
 # 
 # Top level modules:
 # 	proyecto3_system_irq_mapper
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:13 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0.v -work mm_interconnect_0 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_mm_interconnect_0.v -work mm_interconnect_0 
 # -- Compiling module proyecto3_system_mm_interconnect_0
 # 
 # Top level modules:
 # 	proyecto3_system_mm_interconnect_0
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v -work timer 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v -work timer 
 # -- Compiling module proyecto3_system_timer
 # 
 # Top level modules:
 # 	proyecto3_system_timer
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_spi.v -work spi 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_spi.v -work spi 
 # -- Compiling module proyecto3_system_spi
 # 
 # Top level modules:
 # 	proyecto3_system_spi
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:24 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v -work on_chip_memory 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v -work on_chip_memory 
 # -- Compiling module proyecto3_system_on_chip_memory
 # 
 # Top level modules:
 # 	proyecto3_system_on_chip_memory
-# End time: 00:35:24 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v -work nios_ii_processor 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v -work nios_ii_processor 
 # -- Compiling module proyecto3_system_nios_ii_processor
 # 
 # Top level modules:
 # 	proyecto3_system_nios_ii_processor
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v -work jtag_uart 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v -work jtag_uart 
 # -- Compiling module proyecto3_system_jtag_uart_sim_scfifo_w
 # -- Compiling module proyecto3_system_jtag_uart_scfifo_w
 # -- Compiling module proyecto3_system_jtag_uart_sim_scfifo_r
@@ -532,50 +533,50 @@
 # 
 # Top level modules:
 # 	proyecto3_system_jtag_uart
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work proyecto3_system_inst_reset_bfm 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work proyecto3_system_inst_reset_bfm 
 # -- Compiling module altera_avalon_reset_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_reset_source
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work proyecto3_system_inst_clk_bfm 
+# Start time: 07:43:14 on Jul 09,2017
+# vlog -reportprogress 300 -sv E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work proyecto3_system_inst_clk_bfm 
 # -- Compiling module altera_avalon_clock_source
 # -- Importing package altera_common_sv_packages.verbosity_pkg
 # 
 # Top level modules:
 # 	altera_avalon_clock_source
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:14 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v -work proyecto3_system_inst 
+# Start time: 07:43:15 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v -work proyecto3_system_inst 
 # -- Compiling module proyecto3_system
 # 
 # Top level modules:
 # 	proyecto3_system
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:15 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:35:25 on Jul 09,2017
-# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/proyecto3_system_tb.v 
+# Start time: 07:43:15 on Jul 09,2017
+# vlog -reportprogress 300 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/proyecto3_system_tb.v 
 # -- Compiling module slave
 # -- Compiling module proyecto3_system_tb
 # 
 # Top level modules:
 # 	proyecto3_system_tb
-# End time: 00:35:25 on Jul 09,2017, Elapsed time: 0:00:00
+# End time: 07:43:15 on Jul 09,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # [exec] elab
 # vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_001 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L router_003 -L router_002 -L router_001 -L router -L jtag_uart_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_avalon_jtag_slave_agent -L nios_ii_processor_data_master_agent -L jtag_uart_avalon_jtag_slave_translator -L nios_ii_processor_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L timer -L spi -L on_chip_memory -L nios_ii_processor -L jtag_uart -L proyecto3_system_inst_reset_bfm -L proyecto3_system_inst_clk_bfm -L proyecto3_system_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver proyecto3_system_tb -G/proyecto3_system_tb/proyecto3_system_inst/on_chip_memory/INIT_FILE="proyecto3_system_on_chip_memory.hex" 
-# Start time: 00:35:25 on Jul 09,2017
+# Start time: 07:43:15 on Jul 09,2017
 # Loading work.proyecto3_system_tb
 # Loading proyecto3_system_inst.proyecto3_system
 # Loading jtag_uart.proyecto3_system_jtag_uart
@@ -656,97 +657,124 @@
 # Loading rst_controller.altera_reset_synchronizer
 # ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
 # 
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Too few port connections. Expected 12, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/jtag_uart File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Missing connection for port 'dataavailable'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Missing connection for port 'readyfordata'.
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Too few port connections. Expected 28, found 26.
-#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Missing connection for port 'A_valid_from_M'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Missing connection for port 'instr_retired'.
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Too few port connections. Expected 23, found 6.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/jtag_uart File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(67): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Too few port connections. Expected 28, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Missing connection for port 'A_valid_from_M'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v(38): [TFMPC] - Missing connection for port 'instr_retired'.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu/proyecto3_system_nios_ii_processor_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'q_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Too few port connections. Expected 23, found 6.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(49): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Too few port connections. Expected 23, found 6.
 #    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu/proyecto3_system_nios_ii_processor_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'q_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3015) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2595): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(981).
-#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu/the_proyecto3_system_nios_ii_processor_cpu_nios2_oci/the_proyecto3_system_nios_ii_processor_cpu_nios2_oci_itrace File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(114): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2595): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(981).
+#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu/the_proyecto3_system_nios_ii_processor_cpu_nios2_oci/the_proyecto3_system_nios_ii_processor_cpu_nios2_oci_itrace File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Too few port connections. Expected 23, found 7.
 #    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor/cpu/the_proyecto3_system_nios_ii_processor_cpu_nios2_oci/the_proyecto3_system_nios_ii_processor_cpu_nios2_ocimem/proyecto3_system_nios_ii_processor_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor_cpu.v(2131): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Too few port connections. Expected 23, found 7.
 #    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/on_chip_memory/the_altsyncram File: /build/swbuild/SJ/nightly/16.0/211/l64/work/modelsim/eda/sim_lib/altera_mf.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'wren_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'rden_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'rden_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'data_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'address_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clock1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken2'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken3'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'aclr0'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'aclr1'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'q_b'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
-# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Too few port connections. Expected 16, found 13.
-#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/spi File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_spi.v
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'dataavailable'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'endofpacket'.
-# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_on_chip_memory.v(57): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Too few port connections. Expected 16, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /proyecto3_system_tb/proyecto3_system_inst/spi File: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_spi.v
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'endofpacket'.
+# ** Warning: (vsim-3722) E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v(122): [TFMPC] - Missing connection for port 'readyfordata'.
 #  
-run 50ms
+add wave -position insertpoint  \
+sim:/proyecto3_system_tb/proyecto3_system_inst_clk_bfm_clk_clk \
+sim:/proyecto3_system_tb/proyecto3_system_inst_reset_bfm_reset_reset \
+sim:/proyecto3_system_tb/MISO \
+sim:/proyecto3_system_tb/MOSI \
+sim:/proyecto3_system_tb/SCLK \
+sim:/proyecto3_system_tb/SS_n
+add wave -position insertpoint  \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_readdata \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_waitrequest \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_debugaccess \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_address \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_byteenable \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_read \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_write \
+sim:/proyecto3_system_tb/proyecto3_system_inst/nios_ii_processor_data_master_writedata
+add wave -position insertpoint  \
+sim:/proyecto3_system_tb/slave_inst/rxdata \
+sim:/proyecto3_system_tb/slave_inst/txdata \
+sim:/proyecto3_system_tb/slave_inst/count
+add wave -position insertpoint  \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/readdata \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/address \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/chipselect \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/write_n \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/writedata \
+sim:/proyecto3_system_tb/proyecto3_system_inst/timer/internal_counter
+run 10ms
 # Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
 # Time: 0  Instance: proyecto3_system_tb.proyecto3_system_inst.nios_ii_processor.cpu.the_proyecto3_system_nios_ii_processor_cpu_nios2_oci.the_proyecto3_system_nios_ii_processor_cpu_nios2_ocimem.proyecto3_system_nios_ii_processor_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
 #                    0: INFO: proyecto3_system_tb.proyecto3_system_inst_clk_bfm.__hello: - Hello from altera_clock_source.
@@ -775,5 +803,5 @@ run 50ms
 # @ 3644110: txdata = 2f (00101111)
 # read_data[0] = 5a
 # read_data[1] = 2f
-# End time: 00:38:35 on Jul 09,2017, Elapsed time: 0:03:10
+# End time: 07:59:35 on Jul 09,2017, Elapsed time: 0:16:20
 # Errors: 0, Warnings: 82

@@ -7,24 +7,24 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
 vproyecto3_system_timer
-!s110 1499582124
+!s110 1499607794
 !i10b 1
 !s100 44FB3cgNU84zCV4dadg293
-IhBaPHD7HoliFH:`7BIh`f2
+IY9SPZU:J<Hz5J[PQ0z6j52
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1499563808
-8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v
-FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v
+w1499607396
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v
 L0 21
 OV;L;10.4d;61
 r1
 !s85 0
 31
-!s108 1499582124.000000
-!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v|
-!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v|-work|timer|
+!s108 1499607794.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_timer.v|-work|timer|
 !i113 1
 o-work timer

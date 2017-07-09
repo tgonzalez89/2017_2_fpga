@@ -1,0 +1,13 @@
+!SESSION 2017-07-09 07:37:31.274 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/altera_lite/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/altera_lite/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-09 07:39:56.038
+!MESSAGE Indexed 'proyecto3_bsp' (83 sources, 62 headers) in 1,17 sec: 1.231 declarations; 2.725 references; 114 unresolved inclusions; 6 syntax errors; 191 unresolved names (4,61%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-09 07:40:00.504
+!MESSAGE Indexed 'proyecto3' (1 sources, 0 headers) in 0,01 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)

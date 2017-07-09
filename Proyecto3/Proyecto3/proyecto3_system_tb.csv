@@ -1,12 +1,12 @@
-# system info proyecto3_system_tb on 2017.07.08.19:30:14
+# system info proyecto3_system_tb on 2017.07.09.07:36:44
 system_info:
 name,value
 DEVICE,5CSEMA4U23C6
 DEVICE_FAMILY,Cyclone V
-GENERATION_ID,1499563802
+GENERATION_ID,1499607389
 #
 #
-# Files generated for proyecto3_system_tb on 2017.07.08.19:30:14
+# Files generated for proyecto3_system_tb on 2017.07.09.07:36:44
 files:
 filepath,kind,attributes,module,is_top
 proyecto3_system/testbench/proyecto3_system_tb/simulation/proyecto3_system_tb.v,VERILOG,,proyecto3_system_tb,true

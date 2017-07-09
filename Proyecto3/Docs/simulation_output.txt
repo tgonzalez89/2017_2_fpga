@@ -1,0 +1,15 @@
+#                    0: INFO: proyecto3_system_tb.proyecto3_system_inst_reset_bfm.reset_assert: Reset asserted
+#               990000: INFO: proyecto3_system_tb.proyecto3_system_inst_reset_bfm.reset_deassert: Reset deasserted
+# Time elapsed = 95440 ns
+# write_data[0] = aa
+# write_data[1] = 81
+# @ 3341770: rxdata = 00 (00000000)
+# @ 3396650: txdata = 3f (00111111)
+# @ 3423870: rxdata = aa (10101010)
+# @ 3478750: txdata = 6d (01101101)
+# @ 3506430: rxdata = 81 (10000001)
+# @ 3561310: txdata = 5a (01011010)
+# @ 3589230: rxdata = 00 (00000000)
+# @ 3644110: txdata = 2f (00101111)
+# read_data[0] = 5a
+# read_data[1] = 2f

@@ -7,24 +7,24 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
 vproyecto3_system
-!s110 1499582125
+!s110 1499607795
 !i10b 1
 !s100 L?3bmmUX1GWTn<Bzg9_1c2
-IAaiFH?lMoRI89HD]]:gW10
+ICF;>XfA[of7Pd5mWPWOoc3
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1499563805
-8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v
-FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v
+w1499607394
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v
 L0 6
 OV;L;10.4d;61
 r1
 !s85 0
 31
-!s108 1499582125.000000
-!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v|
-!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v|-work|proyecto3_system_inst|
+!s108 1499607795.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system.v|-work|proyecto3_system_inst|
 !i113 1
 o-work proyecto3_system_inst

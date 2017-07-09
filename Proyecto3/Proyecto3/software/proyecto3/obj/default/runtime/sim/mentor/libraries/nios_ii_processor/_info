@@ -7,24 +7,24 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
 vproyecto3_system_nios_ii_processor
-!s110 1499582125
+!s110 1499607794
 !i10b 1
 !s100 ZCnf3FHPVG2EX=U`hoZgz1
-I=FGReL@hzoMNe<>NEo<?03
+IIeI;3eef6E>]gaZZTUGC61
 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1499563807
-8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v
-FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v
+w1499607395
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v
 L0 9
 OV;L;10.4d;61
 r1
 !s85 0
 31
-!s108 1499582125.000000
-!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v|
-!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v|-work|nios_ii_processor|
+!s108 1499607794.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_nios_ii_processor.v|-work|nios_ii_processor|
 !i113 1
 o-work nios_ii_processor

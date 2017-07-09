@@ -7,32 +7,32 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
 vproyecto3_system_jtag_uart
-Z1 !s110 1499582125
+Z1 !s110 1499607794
 !i10b 1
 !s100 Q9FPZRzgo0HM>8n^<J2V?3
-IFH38FF<Tcm[fCAg^AB3Dl1
+IH^lMaQFOIoJ5[hE>?5N>b1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1499563807
-Z4 8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
-Z5 FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
+Z3 w1499607395
+Z4 8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
+Z5 FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v
 L0 327
 Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z7 !s108 1499582125.000000
-Z8 !s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v|
-Z9 !s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v|-work|jtag_uart|
+Z7 !s108 1499607794.000000
+Z8 !s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v|
+Z9 !s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/proyecto3_system_jtag_uart.v|-work|jtag_uart|
 !i113 1
 Z10 o-work jtag_uart
 vproyecto3_system_jtag_uart_scfifo_r
 R1
 !i10b 1
 !s100 VdfZ:2;zml`IEHS^6O1=R3
-IiCYo_i=OhS`?=402K9;ja3
+In4VV4^`7ncFboJKlPWoCV2
 R2
 R0
 R3
@@ -52,7 +52,7 @@ vproyecto3_system_jtag_uart_scfifo_w
 R1
 !i10b 1
 !s100 BdLPoV93=L7?FgD[LaPhN2
-IChJMzGP;K^7hgo2J?l0lQ1
+IkH^VcEmmK2BdYAXm1:ACg3
 R2
 R0
 R3
@@ -72,7 +72,7 @@ vproyecto3_system_jtag_uart_sim_scfifo_r
 R1
 !i10b 1
 !s100 _c5g3?I^Mz@E6A8i=oE212
-IdBeckU:SozAHJLmzQbCl31
+IR@[I@PnUoYJ`i3<gCCP_^3
 R2
 R0
 R3
@@ -92,7 +92,7 @@ vproyecto3_system_jtag_uart_sim_scfifo_w
 R1
 !i10b 1
 !s100 K2=k7QFU=@njYUUdD`MI@1
-IBKL^X]BWX7]iCUL=F0I541
+IjBWjYFm>bUGo6XPe0<HG10
 R2
 R0
 R3
