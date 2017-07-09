@@ -1,0 +1,18 @@
+module paralell_register (mclk, reset, bus_out, data_in, use_dw, wr);
+	input mclkl, wr, reset;
+	input [3:0] use_dw;
+	input [7:0] data_in;
+	output [119:0] bus_out;
+	
+	always @(posedge mclk) begin
+		if(reset) begin
+			bus_out = 119'h00000000;
+		end else if(wr) begin
+			 case (fstate)
+		
+		
+	
+	end
+	
+endmodule
+

@@ -1,0 +1,34 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/software/proyecto3/obj/default/runtime/sim/mentor
+valtera_avalon_reset_source
+DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+DXx25 altera_common_sv_packages 13 verbosity_pkg 0 22 >h6fM2jL=00?`Xm3:mKIP2
+!s110 1499582125
+!i10b 1
+!s100 @d=a>3TT[^74Sg8;9X9KE3
+Ik_[K?>CkCUchmIzC^PogL3
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_reset_source_sv_unit
+S1
+R0
+w1499563806
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv
+L0 23
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1499582125.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv|
+!s90 -reportprogress|300|-sv|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto3/proyecto3_system/testbench/proyecto3_system_tb/simulation/submodules/altera_avalon_reset_source.sv|-L|altera_common_sv_packages|-work|proyecto3_system_inst_reset_bfm|
+!i113 1
+o-sv -L altera_common_sv_packages -work proyecto3_system_inst_reset_bfm

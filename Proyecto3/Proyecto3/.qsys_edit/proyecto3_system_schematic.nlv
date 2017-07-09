@@ -1,0 +1,21 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst proyecto3_system.nios_ii_processor.reset_bridge -pg 1
+preplace inst proyecto3_system.spi -pg 1 -lvl 3 -y 310
+preplace inst proyecto3_system.nios_ii_processor.cpu -pg 1
+preplace inst proyecto3_system.timer -pg 1 -lvl 3 -y 210
+preplace inst proyecto3_system.nios_ii_processor -pg 1 -lvl 2 -y 200
+preplace inst proyecto3_system.jtag_uart -pg 1 -lvl 3 -y 110
+preplace inst proyecto3_system.on_chip_memory -pg 1 -lvl 3 -y 30
+preplace inst proyecto3_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst proyecto3_system.nios_ii_processor.clock_bridge -pg 1
+preplace inst proyecto3_system.clk_source -pg 1 -lvl 1 -y 220
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)spi.external,(SLAVE)proyecto3_system.spi_io) 1 0 3 NJ 340 NJ 340 NJ
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)proyecto3_system.reset,(SLAVE)clk_source.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>proyecto3_system</net_container>(SLAVE)jtag_uart.irq,(SLAVE)spi.irq,(MASTER)nios_ii_processor.irq,(SLAVE)timer.irq) 1 2 1 720
+preplace netloc INTERCONNECT<net_container>proyecto3_system</net_container>(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)nios_ii_processor.debug_mem_slave,(SLAVE)timer.s1,(SLAVE)spi.spi_control_port,(MASTER)nios_ii_processor.data_master,(MASTER)nios_ii_processor.instruction_master,(SLAVE)on_chip_memory.s1) 1 1 2 300 160 700
+preplace netloc FAN_OUT<net_container>proyecto3_system</net_container>(SLAVE)timer.clk,(SLAVE)on_chip_memory.clk1,(SLAVE)nios_ii_processor.clk,(MASTER)clk_source.clk,(SLAVE)spi.clk,(SLAVE)jtag_uart.clk) 1 1 2 260 120 680
+preplace netloc FAN_OUT<net_container>proyecto3_system</net_container>(MASTER)clk_source.clk_reset,(SLAVE)jtag_uart.reset,(SLAVE)timer.reset,(SLAVE)on_chip_memory.reset1,(SLAVE)nios_ii_processor.reset,(SLAVE)spi.reset) 1 1 2 280 140 660
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)clk_source.clk_in,(SLAVE)proyecto3_system.clk) 1 0 1 NJ
+levelinfo -pg 1 0 50 910
+levelinfo -hier proyecto3_system 60 90 420 760 900

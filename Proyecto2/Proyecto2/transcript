@@ -1,0 +1,40 @@
+# Compile of fifo.v was successful.
+# Compile of fifo_bb.v was successful.
+# Compile of fifo_syn.v was successful.
+# Compile of FSM_gen.v was successful.
+# Compile of FSM_SPI.v was successful.
+# Compile of pre_tx_module.v was successful.
+# Compile of proyecto2.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of tb_fifo.v was successful.
+# Compile of tb_FSM_SPI.v was successful.
+# Compile of tb_pre_tx_module.v was successful.
+# Compile of tb_proyecto2.v was successful.
+# Compile of tb_shift_register.v was successful.
+# Compile of clk_div_mod.v was successful.
+# Compile of tb1_clk_div_mod.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim work.tb_FSM_SPI
+# vsim work.tb_FSM_SPI 
+# Start time: 23:04:31 on Jun 21,2017
+# Loading work.tb_FSM_SPI
+# Loading work.FSM_SPI
+# ** Error: (vsim-3063) C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_FSM_SPI.v(14): Port 'fifo_rx_read_rq' not found in the connected module (7th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_FSM_SPI/U1 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v
+# Error loading design
+vsim work.tb_FSM_SPI
+# vsim work.tb_FSM_SPI 
+# Start time: 23:04:49 on Jun 21,2017
+# Loading work.tb_FSM_SPI
+# Loading work.FSM_SPI
+# ** Error: (vsim-3063) C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_FSM_SPI.v(14): Port 'fifo_rx_read_rq' not found in the connected module (7th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_FSM_SPI/U1 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v
+# Error loading design
+vsim work.tb_FSM_SPI
+# vsim work.tb_FSM_SPI 
+# Start time: 23:04:50 on Jun 21,2017
+# Loading work.tb_FSM_SPI
+# Loading work.FSM_SPI
+# ** Error: (vsim-3063) C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/tb_FSM_SPI.v(14): Port 'fifo_rx_read_rq' not found in the connected module (7th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_FSM_SPI/U1 File: C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/FSM_SPI.v
+# Error loading design

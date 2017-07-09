@@ -1,0 +1,8 @@
+
+
+C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/pre_tx_module.v
+
+Jun 28 10PM:00:48>: MegaWizard Plug-In Manager does not recognize C:/Users/mespinoz/Documents/Maestria ITCR/Prototipado FPGA/Proyecto2/pre_tx_module.v as a wizard-generated
+custom megafunction variation.
+
+Do you want to use a wizard to overwrite it?
