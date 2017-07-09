@@ -37,7 +37,7 @@ module proyecto2 (Mclk,nReset,Data_Available,BUS_IN,Read_RQ,BUS_OUT,SPI_clk,SPI_
 	wire [3:0] fifo_rx_usedw;
 	wire rx_data_out_wr;
 	reg read_write_addr;
-	
+	wire [7:0] data_tmp;
 	
 		
 	reg sclr;
@@ -58,12 +58,20 @@ module proyecto2 (Mclk,nReset,Data_Available,BUS_IN,Read_RQ,BUS_OUT,SPI_clk,SPI_
 		
 	end
 	
-	always @(csi_clk or SPI_CS) begin
-		SPI_clk <= ~SPI_CS & csi_clk;
+	always @(csi_clk) begin
+		if(nReset==0) begin
+			SPI_clk <= 0;
+		end
+		
+		if(~SPI_CS) begin
+			SPI_clk <= ~SPI_clk;
+		end else begin
+			SPI_clk <= 0;
+		end
 	end
 	
-	pre_tx_module U0 (.nReset(nReset), .Mclk(Mclk),.Data_Available(Data_Available), .fifo_wrreq(wrreq));
-	fifo U1 (.sclr(sclr), .clock(Mclk),  .data(BUS_IN), .rdreq(Reg_Tx_Read_Req), .wrreq(wrreq), .almost_full(almost_full), .empty(empty), .full(full), .q(q), .usedw(usedw));		
+	pre_tx_module U0 (.nReset(nReset), .Mclk(Mclk),.Data_Available(Data_Available), .fifo_wrreq(wrreq),.data_in(BUS_IN),.data_tmp(data_tmp));
+	fifo U1 (.sclr(sclr), .clock(Mclk),  .data(data_tmp), .rdreq(Reg_Tx_Read_Req), .wrreq(wrreq), .almost_full(almost_full), .empty(empty), .full(full), .q(q), .usedw(usedw));		
 	FSM_SPI U2 (.rx_almost_full(fifo_rx_almost_full), .fifo_rx_empty(fifo_rx_empty), .CSI_CLK(csi_clk), .clock(Mclk),.reset(nReset),.tx_almost_full(almost_full), .data_sel(sel),.tx_load(Reg_Tx_Enable),.fifo_tx_read_rq(Reg_Tx_Read_Req),.CS(SPI_CS),.fifo_tx_empty(empty),.data_rx_read_rq(Read_RQ), .rx_load(rx_load), .fifo_rx_wrreq(fifo_rx_wrreq), .fifo_rx_rdreq(fifo_rx_rdreq),.rx_data_out_wr(rx_data_out_wr));
 	mux_sel U5 (.addr({{7{read_write_addr}},{Address[6:0]}}),.data(q),.data_out(shifht_reg_data_out),.sel(sel));
 	clk_div_mod U4 (.clk(Mclk),.csi_clk(csi_clk),.rst(rst_clk));

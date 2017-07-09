@@ -85,6 +85,8 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;	
 
+	
+
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 1;
@@ -102,7 +104,9 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;	
-
+ 
+	BUS_IN = 8'h41;
+		
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 1;
@@ -119,7 +123,7 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 0;
-	#160;  SPI_MISO = 1;	
+	#160;  SPI_MISO = 1;
 
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 0;
@@ -138,7 +142,7 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;	
-
+    Data_Available = 0;
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 1;
@@ -155,7 +159,7 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 0;
-	#160;  SPI_MISO = 0;	
+	#160;  SPI_MISO = 0;
 
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 1;
@@ -174,133 +178,106 @@ module tb_proyecto2 ();
 	#160;  SPI_MISO = 0;
 	#160;  SPI_MISO = 1;
 	#160;  SPI_MISO = 0;		
-	#1000000;
+	
+	
 	
 	//TX
-		#100 rst_clk=1;
-		#10000 nReset = 1; Data_Available = 1; BUS_IN = 8'h3f;
+	
+		
+	Data_Available = 1;	
+		BUS_IN = 8'h21;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'ha0;
+		#5120 Data_Available = 1;	
+	   BUS_IN = 8'hbb;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'hbc;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'hc9;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'hfa;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'hfa;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'he2;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h5a;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h1f;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h5c;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h7f;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+	   BUS_IN = 8'haa;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h1a;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'hfe;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'hea;
+		#5120 Data_Available = 0;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h21;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
 		
-		
-		#100 Data_Available = 1; BUS_IN = 8'hdf;
+	//TX
+	
+		Data_Available = 1; 
+		BUS_IN = 8'h14;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'he3;
+		BUS_IN = 8'h12;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h41;
+	   BUS_IN = 8'hee;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h00;
+		BUS_IN = 8'h9c;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h21;
+		BUS_IN = 8'haf;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hbb;
+		BUS_IN = 8'h2e;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hc9;
+		BUS_IN = 8'ha5;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hfa;
+		BUS_IN = 8'hf1;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'he2;
+		Data_Available = 1; 
+		BUS_IN = 8'hc5;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h5a;
+		BUS_IN = 8'hf7;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h1f;
+	   BUS_IN = 8'hcc;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
-		
-		
-		#100 rst_clk=1;
-		#10000 nReset = 1; Data_Available = 1; BUS_IN = 8'h2f;
+		BUS_IN = 8'h3a;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'h90;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'hff;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'h09;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'haf;
 		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;
-
-		#100 Data_Available = 1; BUS_IN = 8'h21;
+		#5120 Data_Available = 1;	
+		BUS_IN = 8'h12;
 		#5120 Data_Available = 0;
 		#5120 Data_Available = 1;	
 		
-		
-		#100 Data_Available = 1; BUS_IN = 8'hf4;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'ha2;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h54;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'he4;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hff;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h00;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h12;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hdc;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'hbb;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'haa;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
-
-		#100 Data_Available = 1; BUS_IN = 8'h45;
-		#5120 Data_Available = 0;
-		#5120 Data_Available = 1;	
 		
 		#100000;
 		
