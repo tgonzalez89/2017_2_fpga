@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/software/Proyecto4_app/obj/default/runtime/sim/mentor
+vProyecto4_qsys_timer_0
+!s110 1502682048
+!i10b 1
+!s100 e_Gn:LPkIhBlBoQB6D5^B0
+Ib08Y6W^Sl`3H93MLnNi1m1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1502680662
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_timer_0.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_timer_0.v
+L0 21
+OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1502682048.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_timer_0.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_timer_0.v|-work|timer_0|
+!i113 1
+o-work timer_0
+n@proyecto4_qsys_timer_0

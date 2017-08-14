@@ -1,0 +1,18 @@
+# Time elapsed during software test = 3514860 ns
+# Time elapsed during hardware test = 116900 ns
+# Iter #0: SW: 14323788 HW: 14323788
+# Iter #1: SW: 5250135 HW: 5250135
+# Iter #2: SW: 4279296 HW: 4279296
+# Iter #3: SW: 5506536 HW: 5506536
+# Iter #4: SW: -2171520 HW: -2171520
+# Iter #5: SW: -542360 HW: -542360
+# Iter #6: SW: 2135824 HW: 2135824
+# Iter #7: SW: 2577960 HW: 2577960
+# Iter #8: SW: 3543288 HW: 3543288
+# Iter #9: SW: -4368960 HW: -4368960
+# Iter #10: SW: -363000 HW: -363000
+# Iter #11: SW: -6399459 HW: -6399459
+# Iter #12: SW: 8243120 HW: 8243120
+# Iter #13: SW: 605700 HW: 605700
+# Iter #14: SW: 1385624 HW: 1385624
+# Iter #15: SW: -855475 HW: -855475
