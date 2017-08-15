@@ -1,0 +1,535 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/software/Proyecto4_app/obj/default/runtime/sim/mentor
+vProyecto4_qsys_nios2_gen2_0_cpu
+Z1 !s110 1502682047
+!i10b 1
+!s100 OdHe65SMWAKIG40EVFdNh3
+Ik`4EXnd^jlcWeKZAMG@;z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1502680667
+Z4 8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu.v
+Z5 FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu.v
+L0 2820
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1502682047.000000
+Z8 !s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu.v|
+Z9 !s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+n@proyecto4_qsys_nios2_gen2_0_cpu
+vProyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk
+Z11 !s110 1502682048
+!i10b 1
+!s100 2G_X;o=H1T=04K@lQWdid0
+I4nbieZ:NEBG?ZV20JWblB2
+R2
+R0
+R3
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk.v
+Z12 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_sysclk
+vProyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck
+R11
+!i10b 1
+!s100 ZMJNEzX:TjmHczk5Z_e263
+ILe8GCQ[J4GWXnBHc6`DQ:3
+R2
+R0
+R3
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck.v
+R12
+R6
+r1
+!s85 0
+31
+Z13 !s108 1502682048.000000
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_tck
+vProyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper
+R11
+!i10b 1
+!s100 3koHW8[oImNEnc1WUSo9i2
+I=?HLc=11EZW;N3c2Q]=012
+R2
+R0
+R3
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R12
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_debug_slave_wrapper
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_avalon_reg
+R1
+!i10b 1
+!s100 [l[cA8a5h^`[9?31Q]R=W3
+Ie0C0g;M4=CPS@YM=MPm7i1
+R2
+R0
+R3
+R4
+R5
+L0 2009
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_avalon_reg
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci
+R1
+!i10b 1
+!s100 >^lb^1GGnNZ3bII9P??c`2
+I4X1aCAD>edd_>m7XR[_RT2
+R2
+R0
+R3
+R4
+R5
+L0 2345
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_break
+R1
+!i10b 1
+!s100 ?oBa_1Wnb<I`^aI[214GZ3
+I_AEXk[>VVP8[];bkJo6^l0
+R2
+R0
+R3
+R4
+R5
+L0 292
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_break
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R1
+!i10b 1
+!s100 mz2ZYea[d6_];TTTMhj<e0
+IAK:]h83MZbZ`h1b3gNP<R3
+R2
+R0
+R3
+R4
+R5
+L0 1258
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_dbrk
+R1
+!i10b 1
+!s100 AA1M<7fmSzE0M6h8ko^aC3
+Izn9QSiV^igaP@0mh`_a0T1
+R2
+R0
+R3
+R4
+R5
+L0 790
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_dbrk
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_debug
+R1
+!i10b 1
+!s100 YZglZU?b]R@SUh>9kB05=3
+I>f51a3>cLjT1cRk][c^Zj2
+R2
+R0
+R3
+R4
+R5
+L0 151
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_debug
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_dtrace
+R1
+!i10b 1
+!s100 A69JVSfMnmOoN67_Va8E51
+I@gzkF=BJOThc:FR3=?DLo3
+R2
+R0
+R3
+R4
+R5
+L0 1177
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_dtrace
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo
+R1
+!i10b 1
+!s100 KCk_nX_`AE?f40`HNNG1h0
+IJocJ4IR7@LiKE1n<fK9cC0
+R2
+R0
+R3
+R4
+R5
+L0 1417
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R1
+!i10b 1
+!s100 eVlf`E^KaBbgoc3DoLXd41
+IFkBTUH7YFoUV64AXig7S23
+R2
+R0
+R3
+R4
+R5
+L0 1371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R1
+!i10b 1
+!s100 :Vg6ncBk9kWkH3bT`hnSH2
+IRXT_aG^DG2<;@;6j?J4e70
+R2
+R0
+R3
+R4
+R5
+L0 1329
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_im
+R1
+!i10b 1
+!s100 J`5LKJ;3ND_SZZN=OO36[0
+Ib[h3^fXK^?i8^mBD1FeQ_3
+R2
+R0
+R3
+R4
+R5
+L0 1924
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_im
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_itrace
+R1
+!i10b 1
+!s100 QYzC0H]0jHM`R?f37PkKN0
+IXX6fKDM^iVVC6RlVSBH2S0
+R2
+R0
+R3
+R4
+R5
+L0 976
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_itrace
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_pib
+R1
+!i10b 1
+!s100 >;FKfW1nSBgdKnkThA4^n1
+IbUOKQCgH7VgPhlo>oj2C>3
+R2
+R0
+R3
+R4
+R5
+L0 1902
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_pib
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_td_mode
+R1
+!i10b 1
+!s100 ]>kRNO7NMK@z`cL;2H>Cm2
+IehJfHRZfO`Ig>5Ye<^6cK2
+R2
+R0
+R3
+R4
+R5
+L0 1110
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_td_mode
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_xbrk
+R1
+!i10b 1
+!s100 40CIF7Olhdge7k2nWNUZ<2
+IIlQg3_]__L>PDT121c6`90
+R2
+R0
+R3
+R4
+R5
+L0 584
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_oci_xbrk
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_ocimem
+R1
+!i10b 1
+!s100 ckBHAe`Fk0i3A6jAzOMg:2
+Ic<=B;iKGQF@:W3IJQo2_C0
+R2
+R0
+R3
+R4
+R5
+L0 2165
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_ocimem
+vProyecto4_qsys_nios2_gen2_0_cpu_nios2_performance_monitors
+R1
+!i10b 1
+!s100 VQ9Xz=5F=ncGb<1]AnZb_0
+I[]Z]Vi07ccZh>EZU<?M^Z1
+R2
+R0
+R3
+R4
+R5
+L0 1993
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_nios2_performance_monitors
+vProyecto4_qsys_nios2_gen2_0_cpu_ociram_sp_ram_module
+R1
+!i10b 1
+!s100 nT2=nNM[9U75T>AO53QI[3
+I4AScOZnTIJ6<X^fPBd6DN1
+R2
+R0
+R3
+R4
+R5
+L0 2101
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_ociram_sp_ram_module
+vProyecto4_qsys_nios2_gen2_0_cpu_register_bank_a_module
+R1
+!i10b 1
+!s100 FF0KBWDzH][GGl<iZP@@b1
+IP:R70nPnPz_I_2>>J1[`11
+R2
+R0
+R3
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_register_bank_a_module
+vProyecto4_qsys_nios2_gen2_0_cpu_register_bank_b_module
+R1
+!i10b 1
+!s100 TP3z9ZVDZ[i:0k`^MX>@E0
+IUYfGk^f4P49`Na6HZ0Fh62
+R2
+R0
+R3
+R4
+R5
+L0 86
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_register_bank_b_module
+vProyecto4_qsys_nios2_gen2_0_cpu_test_bench
+R11
+!i10b 1
+!s100 441L@37=i;@k=Tk4h1D8=0
+IHDXPZA4;R3RLA;c]NAGW>2
+R2
+R0
+R3
+8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_test_bench.v
+FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_test_bench.v
+R12
+R6
+r1
+!s85 0
+31
+R13
+!s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_nios2_gen2_0_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+n@proyecto4_qsys_nios2_gen2_0_cpu_test_bench

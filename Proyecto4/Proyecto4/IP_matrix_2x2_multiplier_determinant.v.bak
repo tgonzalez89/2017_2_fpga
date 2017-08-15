@@ -1,0 +1,24 @@
+module IP_matrix_2x2_multiplier_determinant (
+	input clock;
+	input reset;
+	input [31:0] writedata;
+	output [31:0] readdata;
+	input write;
+	input read;
+	input chipselect;
+	input [1:0] in_address;
+);
+
+parameter	DATA_REG_1 = 2'b00,
+				DATA_REG_2 = 2'b01,
+				CONTROL_REG = 2'b10,
+				OUT_REG = 2'b11;
+
+	matrix_2x2_multiplier_determinant m0 (
+		.enable(),
+		.matA(),
+		.matB(),
+		.determinant()
+	);
+
+endmodule

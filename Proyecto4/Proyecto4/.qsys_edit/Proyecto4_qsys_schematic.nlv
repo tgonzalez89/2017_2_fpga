@@ -1,0 +1,19 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Proyecto4_qsys.nios2_gen2_0.clock_bridge -pg 1
+preplace inst Proyecto4_qsys.nios2_gen2_0 -pg 1 -lvl 2 -y 100
+preplace inst Proyecto4_qsys.nios2_gen2_0.cpu -pg 1
+preplace inst Proyecto4_qsys.nios2_gen2_0.reset_bridge -pg 1
+preplace inst Proyecto4_qsys.clk_0 -pg 1 -lvl 1 -y 120
+preplace inst Proyecto4_qsys.timer_0 -pg 1 -lvl 3 -y 210
+preplace inst Proyecto4_qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Proyecto4_qsys.onchip_memory2_0 -pg 1 -lvl 3 -y 130
+preplace inst Proyecto4_qsys.jtag_uart_0 -pg 1 -lvl 3 -y 30
+preplace netloc FAN_OUT<net_container>Proyecto4_qsys</net_container>(SLAVE)timer_0.reset,(SLAVE)jtag_uart_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)onchip_memory2_0.reset1) 1 1 2 260 240 700
+preplace netloc FAN_OUT<net_container>Proyecto4_qsys</net_container>(SLAVE)nios2_gen2_0.clk,(MASTER)clk_0.clk,(SLAVE)jtag_uart_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)timer_0.clk) 1 1 2 260 60 680
+preplace netloc INTERCONNECT<net_container>Proyecto4_qsys</net_container>(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)onchip_memory2_0.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)timer_0.s1,(SLAVE)nios2_gen2_0.debug_mem_slave,(MASTER)nios2_gen2_0.instruction_master) 1 1 2 280 40 660
+preplace netloc EXPORT<net_container>Proyecto4_qsys</net_container>(SLAVE)Proyecto4_qsys.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Proyecto4_qsys</net_container>(SLAVE)clk_0.clk_in,(SLAVE)Proyecto4_qsys.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>Proyecto4_qsys</net_container>(SLAVE)jtag_uart_0.irq,(SLAVE)timer_0.irq,(MASTER)nios2_gen2_0.irq) 1 2 1 640
+levelinfo -pg 1 0 50 900
+levelinfo -hier Proyecto4_qsys 60 90 400 750 890

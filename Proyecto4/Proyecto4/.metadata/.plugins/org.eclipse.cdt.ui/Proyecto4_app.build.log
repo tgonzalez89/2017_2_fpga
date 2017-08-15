@@ -1,0 +1,9 @@
+21:40:36 **** Incremental Build of configuration Nios II for project Proyecto4_app ****
+make all 
+Info: Building ../Proyecto4_app_bsp/
+C:/altera_lite/16.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Proyecto4_app_bsp/
+[BSP build complete]
+[Proyecto4_app build complete]
+
+21:40:37 Build Finished (took 1s.22ms)
+

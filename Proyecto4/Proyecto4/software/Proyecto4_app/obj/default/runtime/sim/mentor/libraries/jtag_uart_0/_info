@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/software/Proyecto4_app/obj/default/runtime/sim/mentor
+vProyecto4_qsys_jtag_uart_0
+Z1 !s110 1502682049
+!i10b 1
+!s100 `3T8G;`MYe`72;`z7d>LO2
+Idfb2Z75ZZC@`CWfL6HjVO2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1502680661
+Z4 8E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_jtag_uart_0.v
+Z5 FE:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_jtag_uart_0.v
+L0 327
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1502682049.000000
+Z8 !s107 E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_jtag_uart_0.v|
+Z9 !s90 -reportprogress|300|E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/Proyecto4_qsys_jtag_uart_0.v|-work|jtag_uart_0|
+!i113 1
+Z10 o-work jtag_uart_0
+n@proyecto4_qsys_jtag_uart_0
+vProyecto4_qsys_jtag_uart_0_scfifo_r
+R1
+!i10b 1
+!s100 jUO>[6B`oPKBU0ig@^5Fj2
+I^>FC=eN`BTi[UkMAoMjJI2
+R2
+R0
+R3
+R4
+R5
+L0 240
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_jtag_uart_0_scfifo_r
+vProyecto4_qsys_jtag_uart_0_scfifo_w
+R1
+!i10b 1
+!s100 RDQd`XKHBP?d]^7dB]b361
+I[f7WZ1jkUA8Ij44]:^mjf2
+R2
+R0
+R3
+R4
+R5
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_jtag_uart_0_scfifo_w
+vProyecto4_qsys_jtag_uart_0_sim_scfifo_r
+R1
+!i10b 1
+!s100 <6VHo8[7<fBX_6SGjQX;=0
+IjmUMF@UZ>H5VoLjWMk=8W2
+R2
+R0
+R3
+R4
+R5
+L0 162
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_jtag_uart_0_sim_scfifo_r
+vProyecto4_qsys_jtag_uart_0_sim_scfifo_w
+R1
+!i10b 1
+!s100 BgNCM]iVM9EjNB4mW[RBM1
+I09Ec3LoPd6GjoE@e_Hg?W0
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@proyecto4_qsys_jtag_uart_0_sim_scfifo_w

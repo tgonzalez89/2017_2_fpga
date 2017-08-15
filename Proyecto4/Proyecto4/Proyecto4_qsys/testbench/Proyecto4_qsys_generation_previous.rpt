@@ -1,0 +1,233 @@
+Info: Starting: Create testbench Qsys system
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys.ipx
+Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys.qsys --testbench=SIMPLE --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4 --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Proyecto4/Proyecto4_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 16.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 16.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding timer_0 [altera_avalon_timer 16.0]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Proyecto4_qsys.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching C:/altera_lite/16.0/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx
+Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index C:\altera_lite\16.0\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys\testbench\Proyecto4_qsys.ipx
+Progress: Loading Proyecto4/Proyecto4_qsys.qsys
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/* matched 12 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/ip/**/* matched 0 files in 0.00 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/*/* matched 24 files in 0.00 seconds
+Info: E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys\testbench\Proyecto4_qsys.ipx described 0 plugins, 3 paths, in 0.01 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/* matched 4 files in 0.01 seconds
+Info: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/*/* matched 0 files in 0.00 seconds
+Info: C:/Users/tomas/.altera.quartus/ip/16.0/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\altera_lite\16.0\ip\altera\altera_components.ipx
+Info: C:\altera_lite\16.0\ip\altera\altera_components.ipx described 1854 plugins, 0 paths, in 0.11 seconds
+Info: Reading index C:\altera_lite\16.0\ip\altera\up.ipx
+Info: C:\altera_lite\16.0\ip\altera\up.ipx described 2 plugins, 0 paths, in 0.00 seconds
+Info: C:/altera_lite/16.0/ip/**/* matched 138 files in 0.12 seconds
+Info: C:/altera_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index C:\altera_lite\16.0\quartus\sopc_builder\builtin.ipx
+Info: C:\altera_lite\16.0\quartus\sopc_builder\builtin.ipx described 82 plugins, 0 paths, in 0.01 seconds
+Info: C:/altera_lite/16.0/quartus/sopc_builder/**/* matched 8 files in 0.01 seconds
+Info: Reading index C:\altera_lite\16.0\quartus\common\librarian\factories\index.ipx
+Info: C:\altera_lite\16.0\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: C:/altera_lite/16.0/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: C:\altera_lite\16.0\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 10 paths, in 0.15 seconds
+Info: C:/altera_lite/16.0/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.15 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script C:/altera_lite/16.0/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: Proyecto4_qsys
+Info: TB_Gen: System design is: Proyecto4_qsys
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: send_message Info TB_Gen: Creating testbench system : Proyecto4_qsys_tb with clock and reset BFMs
+Info: TB_Gen: Creating testbench system : Proyecto4_qsys_tb with clock and reset BFMs
+Info: create_system Proyecto4_qsys_tb
+Info: add_instance Proyecto4_qsys_inst Proyecto4_qsys 
+Info: set_use_testbench_naming_pattern true Proyecto4_qsys
+Info: get_instance_interfaces Proyecto4_qsys_inst
+Info: get_instance_interface_property Proyecto4_qsys_inst clk CLASS_NAME
+Info: get_instance_interface_property Proyecto4_qsys_inst reset CLASS_NAME
+Info: get_instance_interface_property Proyecto4_qsys_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property Proyecto4_qsys_inst clk CLASS_NAME
+Info: add_instance Proyecto4_qsys_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property Proyecto4_qsys_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Proyecto4_qsys_inst clk clockRate
+Info: set_instance_parameter_value Proyecto4_qsys_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value Proyecto4_qsys_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property Proyecto4_qsys_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property Proyecto4_qsys_inst clk CLASS_NAME
+Info: get_instance_interfaces Proyecto4_qsys_inst_clk_bfm
+Info: get_instance_interface_property Proyecto4_qsys_inst_clk_bfm clk CLASS_NAME
+Info: add_connection Proyecto4_qsys_inst_clk_bfm.clk Proyecto4_qsys_inst.clk
+Info: get_instance_interface_property Proyecto4_qsys_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property Proyecto4_qsys_inst reset CLASS_NAME
+Info: add_instance Proyecto4_qsys_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property Proyecto4_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports Proyecto4_qsys_inst reset
+Info: get_instance_interface_port_property Proyecto4_qsys_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property Proyecto4_qsys_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value Proyecto4_qsys_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value Proyecto4_qsys_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property Proyecto4_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces Proyecto4_qsys_inst_reset_bfm
+Info: get_instance_interface_property Proyecto4_qsys_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_interface_property Proyecto4_qsys_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_property Proyecto4_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value Proyecto4_qsys_inst reset associatedClock
+Info: get_instance_interfaces Proyecto4_qsys_inst_clk_bfm
+Info: get_instance_interface_property Proyecto4_qsys_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: Proyecto4_qsys_inst_reset_bfm is not associated to any clock; connecting Proyecto4_qsys_inst_reset_bfm to 'Proyecto4_qsys_inst_clk_bfm.clk'
+Warning: TB_Gen: Proyecto4_qsys_inst_reset_bfm is not associated to any clock; connecting Proyecto4_qsys_inst_reset_bfm to 'Proyecto4_qsys_inst_clk_bfm.clk'
+Info: add_connection Proyecto4_qsys_inst_clk_bfm.clk Proyecto4_qsys_inst_reset_bfm.clk
+Info: get_instance_interface_property Proyecto4_qsys_inst reset CLASS_NAME
+Info: get_instance_interfaces Proyecto4_qsys_inst_reset_bfm
+Info: get_instance_interface_property Proyecto4_qsys_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_interface_property Proyecto4_qsys_inst_reset_bfm clk CLASS_NAME
+Info: add_connection Proyecto4_qsys_inst_reset_bfm.reset Proyecto4_qsys_inst.reset
+Info: send_message Info TB_Gen: Saving testbench system: Proyecto4_qsys_tb.qsys
+Info: TB_Gen: Saving testbench system: Proyecto4_qsys_tb.qsys
+Info: save_system Proyecto4_qsys_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb.qsys
+Info: Done
+Info: qsys-generate E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=SIMPLE --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys\testbench\Proyecto4_qsys_tb\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading testbench/Proyecto4_qsys_tb.qsys
+Progress: Reading input file
+Progress: Adding Proyecto4_qsys_inst [Proyecto4_qsys 1.0]
+Progress: Parameterizing module Proyecto4_qsys_inst
+Progress: Adding Proyecto4_qsys_inst_clk_bfm [altera_avalon_clock_source 16.0]
+Progress: Parameterizing module Proyecto4_qsys_inst_clk_bfm
+Progress: Adding Proyecto4_qsys_inst_reset_bfm [altera_avalon_reset_source 16.0]
+Progress: Parameterizing module Proyecto4_qsys_inst_reset_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_clk_bfm: Elaborate: altera_clock_source
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_clk_bfm:            $Revision: #2 $
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_clk_bfm:            $Date: 2016/02/19 $
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_reset_bfm: Elaborate: altera_reset_source
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_reset_bfm:            $Revision: #2 $
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_reset_bfm:            $Date: 2016/02/19 $
+Info: Proyecto4_qsys_tb.Proyecto4_qsys_inst_reset_bfm: Reset is negatively asserted.
+Info: Proyecto4_qsys_tb: Generating Proyecto4_qsys_tb "Proyecto4_qsys_tb" for SIM_VERILOG
+Info: Proyecto4_qsys_inst: "Proyecto4_qsys_tb" instantiated Proyecto4_qsys "Proyecto4_qsys_inst"
+Info: Proyecto4_qsys_inst_clk_bfm: "Proyecto4_qsys_tb" instantiated altera_avalon_clock_source "Proyecto4_qsys_inst_clk_bfm"
+Info: Proyecto4_qsys_inst_reset_bfm: "Proyecto4_qsys_tb" instantiated altera_avalon_reset_source "Proyecto4_qsys_inst_reset_bfm"
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/verbosity_pkg.sv
+Info: jtag_uart_0: Starting RTL generation for module 'Proyecto4_qsys_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Proyecto4_qsys_jtag_uart_0 --dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0050_jtag_uart_0_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0050_jtag_uart_0_gen//Proyecto4_qsys_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0050_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'Proyecto4_qsys_jtag_uart_0'
+Info: jtag_uart_0: "Proyecto4_qsys_inst" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "Proyecto4_qsys_inst" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'Proyecto4_qsys_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Proyecto4_qsys_onchip_memory2_0 --dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0051_onchip_memory2_0_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0051_onchip_memory2_0_gen//Proyecto4_qsys_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0051_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'Proyecto4_qsys_onchip_memory2_0'
+Info: onchip_memory2_0: "Proyecto4_qsys_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: timer_0: Starting RTL generation for module 'Proyecto4_qsys_timer_0'
+Info: timer_0:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=Proyecto4_qsys_timer_0 --dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0052_timer_0_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0052_timer_0_gen//Proyecto4_qsys_timer_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0052_timer_0_gen/  ]
+Info: timer_0: Done RTL generation for module 'Proyecto4_qsys_timer_0'
+Info: timer_0: "Proyecto4_qsys_inst" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Proyecto4_qsys_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Proyecto4_qsys_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Proyecto4_qsys_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'Proyecto4_qsys_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//eperlcmd.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=Proyecto4_qsys_nios2_gen2_0_cpu --dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0055_cpu_gen/ --quartus_bindir=C:/altera_lite/16.0/quartus/bin64/ --verilog --config=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0055_cpu_gen//Proyecto4_qsys_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0055_cpu_gen/  ]
+Info: cpu: # 2017.08.13 18:58:37 (*) Starting Nios II generation
+Info: cpu: # 2017.08.13 18:58:37 (*)   Checking for plaintext license.
+Info: cpu: # 2017.08.13 18:58:38 (*)   Couldn't query license setup in Quartus directory C:/altera_lite/16.0/quartus/bin64/
+Info: cpu: # 2017.08.13 18:58:38 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.08.13 18:58:38 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2017.08.13 18:58:38 (*)   Plaintext license not found.
+Info: cpu: # 2017.08.13 18:58:38 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2017.08.13 18:58:38 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.08.13 18:58:38 (*)   Creating all objects for CPU
+Info: cpu: # 2017.08.13 18:58:39 (*)   Creating 'C:/Users/tomas/AppData/Local/Temp/alt7392_7717638463768667623.dir/0055_cpu_gen//Proyecto4_qsys_nios2_gen2_0_cpu_nios2_waves.do'
+Info: cpu: # 2017.08.13 18:58:39 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.08.13 18:58:39 (*)   Creating plain-text RTL
+Info: cpu: # 2017.08.13 18:58:39 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'Proyecto4_qsys_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/Proyecto4_qsys_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Proyecto4_qsys_tb: Done "Proyecto4_qsys_tb" with 30 modules, 51 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\Docs\Maestria\2017-2_Prototipado_FPGAs\Proyectos\Proyecto4\Proyecto4\Proyecto4_qsys_tb.spd --output-directory=E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	30 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/Docs/Maestria/2017-2_Prototipado_FPGAs/Proyectos/Proyecto4/Proyecto4/Proyecto4_qsys/testbench/.
+Info: Finished: Create testbench Qsys system
