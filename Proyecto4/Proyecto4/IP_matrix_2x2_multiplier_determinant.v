@@ -10,10 +10,10 @@ module IP_matrix_2x2_multiplier_determinant (
 );
 
 	// Register addresses
-	parameter	DATA_REG_1 = 2'b00,
-					DATA_REG_2 = 2'b01,
-					CONTROL_REG = 2'b10,
-					OUT_REG = 2'b11;
+	parameter DATA_REG_1 = 2'b00,
+              DATA_REG_2 = 2'b01,
+              CONTROL_REG = 2'b10,
+              OUT_REG = 2'b11;
 
 	// Wire and regs
 	wire enable_wr_data_reg_1, enable_wr_data_reg_2, enable_wr_control_reg;
