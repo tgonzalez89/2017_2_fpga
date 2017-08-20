@@ -1,0 +1,29 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst proyecto3_system.pll_reconfig_0 -pg 1 -lvl 3 -y 120
+preplace inst proyecto3_system.pll_0 -pg 1 -lvl 2 -y 230
+preplace inst proyecto3_system.nios_ii_processor.reset_bridge -pg 1
+preplace inst proyecto3_system.i2c -pg 1 -lvl 2 -y 530
+preplace inst proyecto3_system.spi -pg 1 -lvl 3 -y 620
+preplace inst proyecto3_system.nios_ii_processor.cpu -pg 1
+preplace inst proyecto3_system.nios_ii_processor -pg 1 -lvl 2 -y 660
+preplace inst proyecto3_system.packets_to_master_0 -pg 1 -lvl 2 -y 330
+preplace inst proyecto3_system.on_chip_memory -pg 1 -lvl 3 -y 340
+preplace inst proyecto3_system.fft_ii_0 -pg 1 -lvl 2 -y 30
+preplace inst proyecto3_system.packets_to_master_1 -pg 1 -lvl 2 -y 450
+preplace inst proyecto3_system.fft_ii_1 -pg 1 -lvl 2 -y 150
+preplace inst proyecto3_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst proyecto3_system.nios_ii_processor.clock_bridge -pg 1
+preplace inst proyecto3_system.wdt -pg 1 -lvl 3 -y 240
+preplace inst proyecto3_system.clk_source -pg 1 -lvl 1 -y 530
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)proyecto3_system.spi_io,(SLAVE)spi.external) 1 0 3 NJ 620 NJ 620 NJ
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)proyecto3_system.reset,(SLAVE)clk_source.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>proyecto3_system</net_container>(MASTER)nios_ii_processor.irq,(SLAVE)wdt.irq) 1 2 1 740
+preplace netloc FAN_OUT<net_container>proyecto3_system</net_container>(SLAVE)nios_ii_processor.clk,(SLAVE)on_chip_memory.clk1,(SLAVE)fft_ii_0.clk,(MASTER)clk_source.clk,(SLAVE)spi.clk,(SLAVE)i2c.clock,(SLAVE)pll_0.refclk,(SLAVE)wdt.clk,(SLAVE)packets_to_master_0.clk,(SLAVE)pll_reconfig_0.mgmt_clk,(SLAVE)fft_ii_1.clk,(SLAVE)packets_to_master_1.clk) 1 1 2 260 440 780
+preplace netloc INTERCONNECT<net_container>proyecto3_system</net_container>(MASTER)packets_to_master_1.avalon_master,(MASTER)packets_to_master_0.avalon_master,(SLAVE)pll_reconfig_0.mgmt_avalon_slave,(SLAVE)spi.spi_control_port,(SLAVE)on_chip_memory.s1,(MASTER)nios_ii_processor.instruction_master,(MASTER)i2c.avalon_master,(SLAVE)wdt.s1,(MASTER)nios_ii_processor.data_master,(SLAVE)nios_ii_processor.debug_mem_slave) 1 1 2 320 800 720
+preplace netloc FAN_OUT<net_container>proyecto3_system</net_container>(SLAVE)packets_to_master_0.clk_reset,(SLAVE)nios_ii_processor.reset,(SLAVE)spi.reset,(SLAVE)i2c.reset,(SLAVE)pll_reconfig_0.mgmt_reset,(SLAVE)packets_to_master_1.clk_reset,(SLAVE)fft_ii_0.rst,(SLAVE)fft_ii_1.rst,(SLAVE)on_chip_memory.reset1,(MASTER)clk_source.clk_reset,(SLAVE)pll_0.reset,(SLAVE)wdt.reset) 1 1 2 280 420 760
+preplace netloc POINT_TO_POINT<net_container>proyecto3_system</net_container>(SLAVE)pll_reconfig_0.reconfig_from_pll,(SLAVE)pll_0.reconfig_from_pll) 1 1 2 300 120 NJ
+preplace netloc EXPORT<net_container>proyecto3_system</net_container>(SLAVE)proyecto3_system.clk,(SLAVE)clk_source.clk_in) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>proyecto3_system</net_container>(SLAVE)pll_0.reconfig_to_pll,(SLAVE)pll_reconfig_0.reconfig_to_pll) 1 1 2 320 140 NJ
+levelinfo -pg 1 0 50 990
+levelinfo -hier proyecto3_system 60 90 440 840 980

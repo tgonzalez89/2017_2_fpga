@@ -1,0 +1,131 @@
+Flow report for p4_project
+Sat Aug 19 20:09:14 2017
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sat Aug 19 20:09:14 2017       ;
+; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                   ; p4_project                                  ;
+; Top-level Entity Name           ; p4_project                                  ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 1773                                        ;
+; Total pins                      ; 6                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 18,432                                      ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 08/19/2017 20:07:31 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; p4_project          ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                            ;
++-------------------------------------+--------------------------------------------------------------------------+---------------+---------------------------+----------------+
+; Assignment Name                     ; Value                                                                    ; Default Value ; Entity Name               ; Section Id     ;
++-------------------------------------+--------------------------------------------------------------------------+---------------+---------------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 268891677306905.150319485119300                                          ; --            ; --                        ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                              ; --            ; --                        ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                ; <None>        ; --                        ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                                                     ; --            ; --                        ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                       ; --            ; --                        ; --             ;
+; MESSAGE_DISABLE                     ; 270007                                                                   ; --            ; proyecto3_system_fft_ii_0 ; --             ;
+; MESSAGE_DISABLE                     ; 270007                                                                   ; --            ; proyecto3_system_fft_ii_1 ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                        ; --            ; --                        ; --             ;
+; MISC_FILE                           ; project3_copy/proyecto3_system/synthesis/../proyecto3_system.cmp         ; --            ; --                        ; --             ;
+; MISC_FILE                           ; project3_copy/proyecto3_system/synthesis/../../proyecto3_system.qsys     ; --            ; --                        ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                                 ; --            ; --                        ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                    ; --            ; --                        ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                   ; --            ; --                        ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                      ; --            ; --                        ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                    ; --            ; --                        ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                             ; --            ; --                        ; --             ;
+; SLD_FILE                            ; project3_copy/proyecto3_system/synthesis/proyecto3_system.regmap         ; --            ; --                        ; --             ;
+; SLD_FILE                            ; project3_copy/proyecto3_system/synthesis/proyecto3_system.debuginfo      ; --            ; --                        ; --             ;
+; SLD_INFO                            ; QSYS_NAME proyecto3_system HAS_SOPCINFO 1 GENERATION_ID 1503192595       ; --            ; proyecto3_system          ; --             ;
+; SOPCINFO_FILE                       ; project3_copy/proyecto3_system/synthesis/../../proyecto3_system.sopcinfo ; --            ; --                        ; --             ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                       ; --            ; --                        ; --             ;
++-------------------------------------+--------------------------------------------------------------------------+---------------+---------------------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:01:36     ; 1.0                     ; 1258 MB             ; 00:02:00                           ;
+; Total                ; 00:01:36     ; --                      ; --                  ; 00:02:00                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; DSP-07           ; Windows 8 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off p4_project -c p4_project
+
+
+

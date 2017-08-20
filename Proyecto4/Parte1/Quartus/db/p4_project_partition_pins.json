@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "spi_io_MOSI",
+					"strict" : false
+				},
+				{
+					"name" : "spi_io_SCLK",
+					"strict" : false
+				},
+				{
+					"name" : "spi_io_SS_n",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "spi_io_MISO",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
